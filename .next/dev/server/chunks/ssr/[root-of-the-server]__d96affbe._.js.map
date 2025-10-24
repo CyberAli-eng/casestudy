@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 18, "column": 0}, "map": {"version":3,"sources":["file:///Users/alikhusroo/Documents/task-1/prime-role-case-studies-demo/app/case-studies/lambdatest/page.js"],"sourcesContent":["import CaseStudyLayout from '@/components/CaseStudyLayout'\n\nexport default function LambdaTestPage() {\n  const data = {\n    company: 'LambdaTest',\n    title: '3X Growth with RevOps Transformation',\n    subtitle: 'How LambdaTest achieved remarkable revenue growth using PrimeRole',\n    stats: [\n      { label: 'Meetings Booked', value: '3X' },\n      { label: 'Cost Savings', value: '$210K' },\n      { label: 'Time Saved', value: '4+ Hours' },\n      { label: 'Data Accuracy', value: '90%+' },\n    ],\n  }\n\n  return <CaseStudyLayout data={data} />\n}\n"],"names":[],"mappings":";;;;;;;;;;;;AAEe,SAAS;IACtB,MAAM,OAAO;QACX,SAAS;QACT,OAAO;QACP,UAAU;QACV,OAAO;YACL;gBAAE,OAAO;gBAAmB,OAAO;YAAK;YACxC;gBAAE,OAAO;gBAAgB,OAAO;YAAQ;YACxC;gBAAE,OAAO;gBAAc,OAAO;YAAW;YACzC;gBAAE,OAAO;gBAAiB,OAAO;YAAO;SACzC;IACH;IAEA,qBAAO,8OAAC;QAAgB,MAAM;;;;;;AAChC","debugId":null}}]
+}

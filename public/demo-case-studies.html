@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PrimeRole Case Studies - Demo</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            background: #f8fafc;
+            color: #1e293b;
+            line-height: 1.6;
+        }
+        
+        .demo-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        
+        .demo-header {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+        
+        .demo-header h1 {
+            font-size: 48px;
+            margin-bottom: 16px;
+            color: #1e293b;
+        }
+        
+        .demo-header p {
+            font-size: 20px;
+            color: #64748b;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        
+        .case-studies-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            gap: 30px;
+            margin-bottom: 60px;
+        }
+        
+        .case-study-card {
+            background: white;
+            border-radius: 12px;
+            padding: 40px;
+            text-decoration: none;
+            color: inherit;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+            border: 1px solid #e2e8f0;
+            display: block;
+        }
+        
+        .case-study-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+            border-color: #2a5bd7;
+        }
+        
+        .card-logo {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+        
+        .case-study-card h3 {
+            font-size: 24px;
+            margin-bottom: 12px;
+            color: #1e293b;
+        }
+        
+        .subtitle {
+            color: #64748b;
+            margin-bottom: 20px;
+            font-size: 16px;
+            line-height: 1.5;
+        }
+        
+        .results-list {
+            list-style: none;
+            margin: 20px 0;
+        }
+        
+        .results-list li {
+            padding: 8px 0;
+            color: #475569;
+        }
+        
+        .view-case-study {
+            color: #2a5bd7;
+            font-weight: 600;
+            margin-top: 20px;
+        }
+        
+        .implementation-guide {
+            background: white;
+            border-radius: 12px;
+            padding: 40px;
+            margin-top: 40px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+        }
+        
+        .implementation-guide h2 {
+            margin-bottom: 20px;
+            color: #1e293b;
+        }
+        
+        .implementation-guide ol {
+            margin-left: 20px;
+        }
+        
+        .implementation-guide li {
+            margin-bottom: 15px;
+            line-height: 1.6;
+        }
+        
+        code {
+            background: #f1f5f9;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-family: 'Monaco', 'Consolas', monospace;
+            font-size: 14px;
+        }
+        
+        @media (max-width: 768px) {
+            .case-studies-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .demo-header h1 {
+                font-size: 36px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="demo-container">
+        <div class="demo-header">
+            <h1>PrimeRole Case Studies</h1>
+            <p>Demo page for testing case study implementations</p>
+        </div>
+        
+        <div class="case-studies-grid">
+            <a href="/case-studies/lambdatest" class="case-study-card">
+                <div class="card-logo">🚀</div>
+                <h3>LambdaTest</h3>
+                <p class="subtitle">3X Growth with RevOps Transformation</p>
+                <ul class="results-list">
+                    <li>✓ 3X meeting growth</li>
+                    <li>✓ $210K saved</li>
+                    <li>✓ 90%+ data accuracy</li>
+                </ul>
+                <div class="view-case-study">View Case Study →</div>
+            </a>
+            
+            <a href="/case-studies/whatfix" class="case-study-card">
+                <div class="card-logo">💡</div>
+                <h3>Whatfix</h3>
+                <p class="subtitle">Streamlining Digital Adoption Platform Sales</p>
+                <ul class="results-list">
+                    <li>✓ 2.5X conversion rate</li>
+                    <li>✓ 40% faster sales cycle</li>
+                    <li>✓ Unified customer view</li>
+                </ul>
+                <div class="view-case-study">View Case Study →</div>
+            </a>
+        </div>
+        
+        <div class="implementation-guide">
+            <h2>Implementation Guide</h2>
+            <ol>
+                <li><strong>Folder Structure:</strong> Copy the <code>case-studies</code> folder to your PrimeRole Next.js app directory</li>
+                <li><strong>Components:</strong> Add the <code>CaseStudyLayout.js</code> component to your components folder</li>
+                <li><strong>Integration:</strong> In the layout files, replace the commented header/footer with PrimeRole's actual components:
+                    <br><code>{"<PrimeRoleHeader />"} and {"<PrimeRoleFooter />"}</code>
+                </li>
+                <li><strong>Styling:</strong> The CSS-in-JS styles will work as-is, but you may want to integrate with your existing design system</li>
+                <li><strong>Navigation:</strong> Add links to <code>/case-studies</code> in your main navigation</li>
+                <li><strong>Testing:</strong> Use this demo page to verify all case studies are accessible</li>
+            </ol>
+        </div>
+    </div>
+</body>
+</html>

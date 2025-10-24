@@ -1,0 +1,9 @@
+[00:00:02.708] Server  LOG      ✓ Ready in 1741ms
+[00:00:06.323] Server  LOG      ○ Compiling /case-studies/lambdatest ...
+[00:00:12.640] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:15.406] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:15.496] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:51.385] Server  LOG      ✓ Compiled in 281ms
+[00:02:52.058] Server  LOG      ✓ Compiled in 100ms
+[00:05:13.052] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:05:15.419] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
