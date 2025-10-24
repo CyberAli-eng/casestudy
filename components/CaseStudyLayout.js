@@ -116,63 +116,72 @@ export default function CaseStudyLayout({ data }) {
 
   return (
     <div className="min-h-screen bg-white">
-      {/* Hero Section */}
-      <section className="relative items-center  bg-gradient-to-br from-white-150 via-purple-50 to-white-150 py-10 lg:py-15 overflow-hidden">
-        <div className="absolute inset-0 bg-grid-slate-100 [mask-image:radial-gradient(0deg,white,rgba(140, 94, 231, 0.6))]" />
-        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+   
+  {/* Hero Section */}
+  <section className="relative items-center bg-gradient-to-br from-white-150 via-purple-50 to-white-150 py-15 lg:py-20 overflow-hidden">
+    <div className="absolute inset-0 bg-grid-slate-100 [mask-image:radial-gradient(0deg,white,rgba(140, 94, 231, 0.6))]" />
+    <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8 }}
-            className="text-center"
-          >
-            <div className=" text-sm text-[#151515] text-center h-10 w-48 bg-white px-4 gap-2 rounded-full border border-transparent mb-8 mx-auto flex items-center justify-center"
-              style={{ background: 'linear-gradient(white, white) padding-box, linear-gradient(248.95deg, rgba(118, 76, 250, 0.05) 11.71%, rgba(118, 76, 250, 0.7) 50.73%, rgba(118, 76, 250, 0.05) 89.75%) border-box', borderWidth: '1px', borderStyle: 'solid' }}>
-              Case Study
-            </div>
-            <div className='flex gap-4 items-center'>
-              <div className="max-w-4xl text-left mx-auto mt-8 mb-8">
+      <motion.div
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.8 }}
+        className="text-center"
+      >
+        <div className="text-lg text-[#151515] text-center h-10 w-48 bg-white px-4 gap-2 rounded-full border border-transparent mb-8 mx-auto flex items-center justify-center"
+          style={{ background: 'linear-gradient(white, white) padding-box, linear-gradient(248.95deg, rgba(118, 76, 250, 0.05) 11.71%, rgba(118, 76, 250, 0.7) 50.73%, rgba(118, 76, 250, 0.05) 89.75%) border-box', borderWidth: '1px', borderStyle: 'solid' }}>
+          Case Study
+        </div>
+        
+        {/* Core Responsiveness Fix: Stack vertically on mobile, row on large screens */}
+        <div className='flex flex-col-reverse lg:flex-row gap-8 lg:gap-4 items-center justify-center'>
+          
+          {/* Title and Subtitle Block */}
+          {/* w-full ensures it takes full width on mobile. text-center is the default. lg:text-left for desktop side-by-side alignment. */}
+          <div className="max-w-4xl w-full text-center lg:text-left mx-auto mt-0 lg:mt-8 mb-8 lg:mb-8">
 
-            {/* Title */}
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight mb-6">
+            {/* Title - Reduced bottom margin on mobile */}
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight mb-4 lg:mb-6">
               {data.title}{' '}
               <span className="bg-indigo-600 bg-clip-text text-transparent">
                 {data.colortitle}
               </span>
             </h1>
             
-            {/* Subtitle */}
-            <p className="text-xl md:text-2xl text-gray-600 max-w-4xl mx-auto leading-relaxed mb-8">
+            {/* Subtitle - Reduced bottom margin on mobile */}
+            <p className="text-2xl md:text-2xl text-gray-600 max-w-4xl mx-auto leading-relaxed mb-0 lg:mb-8">
               {data.subtitle}
             </p>
+          </div>
+          
+          {/* Logos Block */}
+          {/* Flex-shrink-0 prevents logos from shrinking. Adjusted margins for better flow when stacked. */}
+          <div className="flex-shrink-0 flex items-center justify-center gap-6 mt-0 mb-8 lg:mb-12 lg:mt-0">
+            <div className="bg-white rounded-2xl p-4 sm:p-6 shadow-lg border border-gray-100">
+              {renderCompanyLogo()}
             </div>
-              {/* Logos */}
-            <div className="flex items-center justify-center gap-6 mb-12">
-              <div className="bg-white rounded-2xl p-6 shadow-lg border border-gray-100">
-                {renderCompanyLogo()}
-              </div>
-              <div className="text-2xl">+</div>
-              <div className="bg-white rounded-2xl p-6 shadow-lg border border-gray-100">
-                <PrimeRoleLogo />
-              </div>
+            <div className="text-2xl">+</div>
+            <div className="bg-white rounded-2xl p-4 sm:p-6 shadow-lg border border-gray-100">
+              <PrimeRoleLogo />
             </div>
-</div>
-            {/* Introduction */}
-            {data.hero?.intro && (
-              <div className="max-w-8xl mx-auto">
-                <p className="text-lg text-gray-700 leading-relaxed bg-white/80 backdrop-blur-sm rounded-2xl p-8 border border-gray-100 shadow-sm">
-                  {data.hero.intro}
-                </p>
-              </div>
-            )}
-          </motion.div>
+          </div>
         </div>
-      </section>
+
+        {/* Introduction */}
+        {data.hero?.intro && (
+          <div className="max-w-8xl mx-auto mt-4">
+            <p className="text-2xl text-left text-gray-700 leading-relaxed bg-white/80 backdrop-blur-sm rounded-2xl p-6 sm:p-8 border border-gray-100 shadow-sm">
+              {data.hero.intro}
+            </p>
+          </div>
+        )}
+      </motion.div>
+    </div>
+  </section>
 
       {/* Results Banner */}
       {data.results && (
-        <section className="py-16 bg-gradient-to-r from-indigo-600 to-purple-600 text-white">
+        <section className="py-15 bg-gradient-to-r from-indigo-600 to-purple-600 text-white">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <motion.div
               initial={{ opacity: 0, y: 20 }}
@@ -183,7 +192,7 @@ export default function CaseStudyLayout({ data }) {
             >
               <h2 className="text-3xl md:text-4xl font-bold mb-4">{data.results.heading}</h2>
               {data.results.subheading && (
-                <p className="text-xl">{data.results.subheading}</p>
+                <p className="text-2xl">{data.results.subheading}</p>
               )}
             </motion.div>
 
@@ -211,8 +220,8 @@ export default function CaseStudyLayout({ data }) {
                   <div className="text-4xl lg:text-5xl font-bold mb-2">
                     {stat.value}
                   </div>
-                 
-                     <div className="text-sm tracking-wider mb-2">
+
+                  <div className="text-lg tracking-wider mb-2">
                     {stat.description}
                   </div>
                 </motion.div>
@@ -224,7 +233,7 @@ export default function CaseStudyLayout({ data }) {
 
       {/* Background Section */}
       {data.background && (
-        <section className="py-20 bg-gray-50  bg-gradient-to-br from-white-150 via-purple-50 to-white-150">
+        <section className="py-15 bg-gray-50  bg-gradient-to-br from-white-150 via-purple-50 to-white-150">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <motion.div
               initial={{ opacity: 0, y: 20 }}
@@ -233,7 +242,7 @@ export default function CaseStudyLayout({ data }) {
               viewport={{ once: true }}
             >
               <h2 className="text-3xl font-bold text-gray-900 text-center mb-4">{data.background.title}</h2>
-              <p className="text-xl text-gray-600 text-center max-w-4xl mx-auto mb-12">
+              <p className="text-2xl text-gray-600 text-center max-w-4xl mx-auto mb-12">
                 {data.background.description}
               </p>
 
@@ -249,8 +258,8 @@ export default function CaseStudyLayout({ data }) {
                     className="bg-white rounded-2xl p-6 shadow-sm border border-gray-100 text-center hover:shadow-md transition-shadow"
                   >
                     <div className="text-3xl mb-4">{member.icon}</div>
-                    <h3 className="text-lg font-semibold text-gray-900 mb-2">{member.title}</h3>
-                    <p className="text-gray-600 text-sm">{member.description}</p>
+                    <h3 className="text-xl font-semibold text-gray-900 mb-2">{member.title}</h3>
+                    <p className="text-gray-600 text-lg">{member.description}</p>
                   </motion.div>
                 ))}
               </div>
@@ -271,8 +280,8 @@ export default function CaseStudyLayout({ data }) {
                       className="text-center"
                     >
                       <div className="text-3xl mb-4">{challenge.icon}</div>
-                      <h4 className="text-lg font-semibold text-gray-900 mb-2">{challenge.title}</h4>
-                      <p className="text-gray-600 text-sm">{challenge.description}</p>
+                      <h4 className="text-xl font-semibold text-gray-900 mb-2">{challenge.title}</h4>
+                      <p className="text-gray-600 text-lg">{challenge.description}</p>
                     </motion.div>
                   ))}
                 </div>
@@ -282,7 +291,7 @@ export default function CaseStudyLayout({ data }) {
                     whileInView={{ opacity: 1 }}
                     transition={{ duration: 0.6, delay: 0.6 }}
                     viewport={{ once: true }}
-                    className="text-center text-gray-700 italic mt-8 pt-6 border-t border-gray-100"
+                    className=" text-gray-700 italic mt-8 pt-6 border-t border-gray-100"
                   >
                     {data.background.realization}
                   </motion.p>
@@ -295,17 +304,17 @@ export default function CaseStudyLayout({ data }) {
 
       {/* Problems Section */}
       {data.problems && (
-        <section className="py-20 bg-white">
+        <section className="py-15 bg-white">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6 }}
               viewport={{ once: true }}
-              className="text-center mb-16"
+              className="text-center mb-10"
             >
               <h2 className="text-3xl font-bold text-gray-900 mb-4">{data.problems.title}</h2>
-              <p className="text-xl text-gray-600">{data.problems.subtitle}</p>
+              <p className="text-2xl text-gray-600">{data.problems.subtitle}</p>
             </motion.div>
 
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8" >
@@ -322,12 +331,12 @@ export default function CaseStudyLayout({ data }) {
                     <div className="text-2xl text-indigo-600 flex-shrink-0">{problem.icon}</div>
                     <div>
                       <h3 className="text-xl font-semibold text-gray-900 mb-4">{problem.title}</h3>
-                      <p className="text-gray-700 leading-relaxed">{problem.description}</p>
+                      <p className="text-gray-700 text-lg leading-relaxed">{problem.description}</p>
                     </div>
                     <div className="text-2xl text-indigo-600 flex-shrink-0">{problem.tick}</div>
                     <div>
                       <h3 className="text-xl font-semibold text-gray-900 mb-4">{problem.title2}</h3>
-                      <p className="text-gray-700 leading-relaxed">{problem.solution}</p>
+                      <p className="text-gray-700 text-lg leading-relaxed">{problem.solution}</p>
                     </div>
                   </div>
                 </motion.div>
@@ -339,17 +348,17 @@ export default function CaseStudyLayout({ data }) {
 
       {/* Why PrimeRole Section */}
       {data.whyPrimerole && (
-        <section className="py-20  bg-gradient-to-br from-white-150 via-purple-50 to-white-150">
+        <section className="py-15  bg-gradient-to-br from-white-150 via-purple-50 to-white-150">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6 }}
               viewport={{ once: true }}
-              className="text-center mb-16"
+              className="text-center mb-10"
             >
               <h2 className="text-3xl font-bold text-gray-900 mb-4">{data.whyPrimerole.title}</h2>
-              <p className="text-xl text-gray-600 max-w-4xl mx-auto">{data.whyPrimerole.overview}</p>
+              <p className="text-2xl text-gray-600 max-w-4xl mx-auto">{data.whyPrimerole.overview}</p>
             </motion.div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -360,13 +369,13 @@ export default function CaseStudyLayout({ data }) {
                   whileInView={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.6, delay: index * 0.1 }}
                   viewport={{ once: true }}
-                  className="bg-white rounded-2xl p-6 shadow-sm border border-gray-100 text-center hover:shadow-md transition-all"
+                  className="bg-white rounded-2xl p-6 shadow-sm border border-gray-100 hover:shadow-md transition-all"
                 >
                   <div className="flex items-center justify-start gap-4 mb-2">
                     <div className='text-lg font-semibold text-indigo-600'>{index + 1}</div>
                     <h3 className="text-lg font-semibold text-gray-900">{solution.role}</h3>
                   </div>
-                  <p className="text-gray-600 text-sm">{solution.description}</p>
+                  <p className="text-gray-600 text-lg">{solution.description}</p>
                 </motion.div>
               ))}
             </div>
@@ -376,17 +385,17 @@ export default function CaseStudyLayout({ data }) {
 
       {/* Transformation Section */}
       {data.transformation && (
-        <section className="py-20  bg-white">
+        <section className="py-15  bg-white">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6 }}
               viewport={{ once: true }}
-              className="text-center mb-16"
+              className="text-center mb-10"
             >
               <h2 className="text-3xl font-bold text-gray-900 mb-4">{data.transformation.title}</h2>
-              <p className="text-xl text-gray-600">{data.transformation.subtitle}</p>
+              <p className="text-2xl text-gray-600">{data.transformation.subtitle}</p>
             </motion.div>
 
             {/* Steps */}
@@ -403,10 +412,10 @@ export default function CaseStudyLayout({ data }) {
                   variants={fadeInUp}
                   className="bg-gray-50 rounded-2xl p-6 text-center hover:shadow-lg transition-all duration-300"
                 >
-                  <div className="text-3xl text-indigo-600 mb-4">{step.icon}</div>
-                  <div className="text-sm font-semibold text-indigo-600 mb-2">Step {index + 1}</div>
-                  <h3 className="text-lg font-semibold text-gray-900 mb-3">{step.title}</h3>
-                  <p className="text-gray-600 text-sm">{step.description}</p>
+                  <div className="text-3xl text-indigo-600 mb-4">{step.icon}
+                  <span className="text-2xl font-semibold text-indigo-600 mb-2"> Step {index + 1}</span></div>
+                  <h3 className="text-xl font-semibold text-gray-900 mb-3">{step.title}</h3>
+                  <p className="text-gray-600 text-lg">{step.description}</p>
                 </motion.div>
               ))}
             </motion.div>
@@ -422,8 +431,8 @@ export default function CaseStudyLayout({ data }) {
                   viewport={{ once: true }}
                   className="bg-gradient-to-r from-indigo-50 to-purple-50 rounded-2xl p-8 border border-indigo-100"
                 >
-                  <h3 className="text-xl font-semibold text-gray-900 mb-4">{result.title}</h3>
-                  <p className="text-gray-700 leading-relaxed">{result.description}</p>
+                  <h3 className="text-2xl font-semibold text-gray-900 mb-4">{result.title}</h3>
+                  <p className="text-gray-700 text-xl leading-relaxed">{result.description}</p>
                 </motion.div>
               ))}
             </div>
@@ -433,7 +442,7 @@ export default function CaseStudyLayout({ data }) {
 
       {/* Before & After Section */}
       {data.beforeAfter && (
-        <section className="py-20 bg-white">
+        <section className="py-15 bg-white">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <motion.div
               initial={{ opacity: 0, y: 20 }}
@@ -443,7 +452,7 @@ export default function CaseStudyLayout({ data }) {
               className="text-center mb-16"
             >
               <h2 className="text-3xl font-bold text-gray-900 mb-4">{data.beforeAfter.title}</h2>
-              <p className="text-xl text-gray-600">{data.beforeAfter.subtitle}</p>
+              <p className="text-2xl text-gray-600">{data.beforeAfter.subtitle}</p>
             </motion.div>
 
             <motion.div
@@ -463,7 +472,7 @@ export default function CaseStudyLayout({ data }) {
                   
                   <div className="flex items-center justify-between mb-4">
                     <div className="text-center">
-                      <div className="text-sm text-gray-500 mb-1">Before</div>
+                      <div className="text-lg text-gray-500 mb-1">Before</div>
                       <div className="text-xl font-bold text-red-600">{item.before}</div>
                     </div>
                     
@@ -472,7 +481,7 @@ export default function CaseStudyLayout({ data }) {
                     </div>
                     
                     <div className="text-center">
-                      <div className="text-sm text-gray-500 mb-1">After</div>
+                      <div className="text-lg text-gray-500 mb-1">After</div>
                       <div className="text-xl font-bold text-green-600">{item.after}</div>
                     </div>
                   </div>
@@ -489,7 +498,7 @@ export default function CaseStudyLayout({ data }) {
 
       {/* Results by Role Section */}
       {data.resultsByRole && (
-        <section className="py-20 bg-white">
+        <section className="py-15 bg-white">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <motion.div
               initial={{ opacity: 0, y: 20 }}
@@ -499,7 +508,7 @@ export default function CaseStudyLayout({ data }) {
               className="text-center mb-16"
             >
               <h2 className="text-3xl font-bold text-gray-900 mb-4">{data.resultsByRole.title}</h2>
-              <p className="text-xl text-gray-600">{data.resultsByRole.subtitle}</p>
+              <p className="text-2xl text-gray-600">{data.resultsByRole.subtitle}</p>
             </motion.div>
 
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
@@ -543,7 +552,7 @@ export default function CaseStudyLayout({ data }) {
       {/* Testimonial Section */}
       {data.testimonial && (
         <section className="text-white">
-          <div className="max-w-[1240px] rounded-xl bg-gradient-to-r from-indigo-600 to-purple-600 mx-auto py-10 px-4 sm:px-6 lg:px-8 text-center">
+          <div className="max-w-[1240px] rounded-xl bg-gradient-to-r from-indigo-600 to-purple-600 mx-auto py-15 px-4 sm:px-6 lg:px-8 text-center">
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -565,29 +574,28 @@ export default function CaseStudyLayout({ data }) {
 
       {/* Summary Section */}
       {data.summary && (
-        <section className=" py-10  bg-white">
+        <section className=" py-15  bg-white">
           <div className="max-w-5xl max-w-[1240px] m-auto px-4 sm:px-6 lg:px-8">
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6 }}
               viewport={{ once: true }}
-              className="text-center"
             >
               
-              <div className="bg-white  rounded-2xl p-8 shadow-sm border text-center border-gray-100 text-center">
-                              <h2 className="text-3xl font-bold text-gray-900 mb-8">{data.summary.title}</h2>
+              <div className="bg-white  rounded-2xl p-8 shadow-sm border border-gray-100">
+                <h2 className="text-3xl font-bold text-center text-gray-900 mb-8">{data.summary.title}</h2>
 
-                <p className="text-gray-700 text-lg leading-relaxed mb-6">
+                <p className="text-gray-700 text-2xl leading-relaxed mb-6">
                   {data.summary.challenges}
                 </p>
                 
-                <p className="text-gray-700 text-lg leading-relaxed mb-8">
+                <p className="text-gray-700 text-2xl leading-relaxed mb-8">
                   {data.summary.solution}
                 </p>
 
                 {/* Outcome Stats */}
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+                <div className="grid grid-cols-1 text-center md:grid-cols-3 gap-6 mb-8">
                   {data.summary.outcomes.map((outcome, index) => (
                     <motion.div
                       key={index}
@@ -595,13 +603,13 @@ export default function CaseStudyLayout({ data }) {
                       whileInView={{ opacity: 1, scale: 1 }}
                       transition={{ duration: 0.6, delay: index * 0.1 }}
                       viewport={{ once: true }}
-                      className="text-center"
+                      className="bg-indigo-50 rounded-2xl p-6 border border-indigo-100 hover:shadow-lg transition-all duration-300"
                     >
 
-                      <div className="text-3xl md:text-4xl font-bold text-indigo-600 mb-2">
+                      <div className="text-2xl md:text-3xl font-bold text-indigo-600 mb-2">
                         {outcome.value}
                       </div>
-                      <div className="text-gray-600 font-medium">
+                      <div className="text-gray-600 text-lg font-medium">
                         {outcome.label}
                       </div>
                     </motion.div>
@@ -611,7 +619,7 @@ export default function CaseStudyLayout({ data }) {
 
                 <div className="border-t border-gray-200 pt-8">
                   <h2 className="text-3xl text-center font-bold text-gray-900 mb-8">{data.summary.outcometitle}</h2>
-                  <p className="text-gray-700 text-lg leading-relaxed font-medium">
+                  <p className="text-gray-700 text-2xl leading-relaxed font-medium">
                     {data.summary.conclusion}
                   </p>
                 </div>
@@ -622,12 +630,12 @@ export default function CaseStudyLayout({ data }) {
       )}
 
       {/* Footer */}
-      <footer className="py-12 bg-indigo-100 text-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <div className="mb-6">
+      <footer className="py-15 bg-indigo-100 text-white">
+        <div className="max-w-7xl mx-auto px-5 sm:px-7 lg:px-10">
+          <div className="mb-6 flex items-center justify-center gap-4">
             <PrimeRoleLogo />
           </div>
-          <p className="text-gray-800">
+          <p className=" text-center text-gray-800">
             © {new Date().getFullYear()} PrimeRole. All rights reserved.
           </p>
         </div>

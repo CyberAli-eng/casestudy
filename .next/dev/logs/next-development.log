@@ -7,3 +7,116 @@
 [00:02:52.058] Server  LOG      ✓ Compiled in 100ms
 [00:05:13.052] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
 [00:05:15.419] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:14:43.819] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[01:25:46.252] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:25:47.178] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[01:49:05.544] Server  LOG      ✓ Compiled in 209ms
+[01:49:17.575] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:50:26.432] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:50:28.460] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[01:52:48.608] Server  LOG      ✓ Compiled in 52ms
+[01:54:13.218] Server  LOG      ✓ Compiled in 46ms
+[01:54:16.680] Server  LOG      ✓ Compiled in 53ms
+[01:54:21.543] Server  LOG      ✓ Compiled in 46ms
+[01:54:33.911] Server  LOG      ✓ Compiled in 58ms
+[02:02:58.950] Server  LOG      ✓ Compiled in 85ms
+[02:03:50.019] Server  LOG      ✓ Compiled in 147ms
+[02:04:08.912] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:04:56.536] Server  LOG      ✓ Compiled in 72ms
+[02:05:38.876] Server  LOG      ✓ Compiled in 60ms
+[02:06:09.895] Server  LOG      ✓ Compiled in 58ms
+[02:06:25.415] Server  LOG      ✓ Compiled in 44ms
+[02:06:32.049] Server  LOG      ✓ Compiled in 81ms
+[02:06:50.047] Server  LOG      ✓ Compiled in 60ms
+[02:06:55.452] Server  LOG      ✓ Compiled in 55ms
+[02:07:33.902] Server  LOG      ✓ Compiled in 50ms
+[02:07:41.308] Server  LOG      ✓ Compiled in 50ms
+[02:07:48.837] Server  LOG      ✓ Compiled in 56ms
+[02:08:09.305] Server  LOG      ✓ Compiled in 41ms
+[02:08:36.368] Server  LOG      ✓ Compiled in 52ms
+[02:09:14.609] Server  LOG      ✓ Compiled in 46ms
+[02:10:17.962] Server  LOG      ✓ Compiled in 61ms
+[02:10:30.342] Server  LOG      ✓ Compiled in 60ms
+[02:10:38.180] Server  LOG      ✓ Compiled in 58ms
+[02:10:53.482] Server  LOG      ✓ Compiled in 50ms
+[02:13:00.350] Server  LOG      ✓ Compiled in 49ms
+[02:13:15.608] Server  LOG      ✓ Compiled in 114ms
+[02:14:22.279] Server  LOG      ✓ Compiled in 55ms
+[02:14:31.511] Server  LOG      ✓ Compiled in 47ms
+[02:14:51.044] Server  LOG      ✓ Compiled in 59ms
+[02:15:01.094] Server  LOG      ✓ Compiled in 52ms
+[02:15:07.490] Server  LOG      ✓ Compiled in 56ms
+[02:15:14.008] Server  LOG      ✓ Compiled in 51ms
+[02:16:25.622] Server  LOG      ✓ Compiled in 56ms
+[02:16:42.072] Server  LOG      ✓ Compiled in 46ms
+[02:16:49.478] Server  LOG      ✓ Compiled in 68ms
+[02:17:05.593] Server  LOG      ✓ Compiled in 70ms
+[02:17:17.546] Server  LOG      ✓ Compiled in 61ms
+[02:17:36.832] Server  LOG      ✓ Compiled in 51ms
+[02:18:06.459] Server  LOG      ✓ Compiled in 73ms
+[02:18:15.876] Server  LOG      ✓ Compiled in 50ms
+[02:18:44.016] Server  LOG      ✓ Compiled in 60ms
+[02:18:55.537] Server  LOG      ✓ Compiled in 51ms
+[02:19:05.147] Server  LOG      ✓ Compiled in 49ms
+[02:19:12.988] Server  LOG      ✓ Compiled in 46ms
+[02:19:46.592] Server  LOG      ✓ Compiled in 58ms
+[02:19:51.267] Server  LOG      ✓ Compiled in 56ms
+[02:21:16.121] Server  LOG      ✓ Compiled in 58ms
+[02:21:57.956] Server  LOG      ✓ Compiled in 60ms
+[02:22:06.013] Server  LOG      ✓ Compiled in 103ms
+[02:22:26.250] Server  LOG      ✓ Compiled in 51ms
+[02:22:28.521] Server  LOG      ✓ Compiled in 53ms
+[02:24:23.585] Server  LOG      ✓ Compiled in 54ms
+[02:25:26.899] Server  LOG      ✓ Compiled in 51ms
+[02:28:39.587] Server  LOG      ✓ Compiled in 75ms
+[02:31:04.527] Server  LOG      ✓ Compiled in 54ms
+[02:31:42.124] Server  LOG      ✓ Compiled in 134ms
+[02:31:54.238] Server  LOG      ✓ Compiled in 44ms
+[02:32:14.818] Server  LOG      ✓ Compiled in 48ms
+[02:32:26.595] Server  LOG      ✓ Compiled in 48ms
+[02:33:35.739] Server  LOG      ✓ Compiled in 53ms
+[02:36:35.623] Server  LOG      ✓ Compiled in 39ms
+[02:37:17.998] Server  LOG      ✓ Compiled in 55ms
+[02:37:56.816] Server  LOG      ✓ Compiled in 49ms
+[02:38:07.583] Server  LOG      ✓ Compiled in 47ms
+[02:38:14.100] Server  LOG      ✓ Compiled in 57ms
+[02:38:31.405] Server  LOG      ✓ Compiled in 46ms
+[02:39:01.757] Server  LOG      ✓ Compiled in 45ms
+[02:39:13.228] Server  LOG      ✓ Compiled in 48ms
+[02:39:25.507] Server  LOG      ✓ Compiled in 45ms
+[02:39:36.878] Server  LOG      ✓ Compiled in 51ms
+[02:39:52.204] Server  LOG      ✓ Compiled in 52ms
+[02:39:59.206] Server  LOG      ✓ Compiled in 56ms
+[02:40:30.181] Server  LOG      ✓ Compiled in 54ms
+[02:40:54.713] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:40:55.812] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[02:41:34.728] Server  LOG      ✓ Compiled in 52ms
+[02:41:53.381] Server  LOG      ✓ Compiled in 57ms
+[02:42:03.090] Server  LOG      ✓ Compiled in 58ms
+[02:42:24.267] Server  LOG      ✓ Compiled in 49ms
+[02:42:36.346] Server  LOG      ✓ Compiled in 52ms
+[02:43:12.156] Server  LOG      ✓ Compiled in 53ms
+[02:43:24.590] Server  LOG      ✓ Compiled in 45ms
+[02:43:27.512] Server  LOG      ✓ Compiled in 48ms
+[02:43:40.163] Server  LOG      ✓ Compiled in 62ms
+[02:44:12.087] Server  LOG      ✓ Compiled in 51ms
+[02:44:20.713] Server  LOG      ✓ Compiled in 107ms
+[02:44:27.715] Server  LOG      ✓ Compiled in 54ms
+[02:44:34.717] Server  LOG      ✓ Compiled in 49ms
+[02:44:54.319] Server  LOG      ✓ Compiled in 57ms
+[02:45:11.520] Server  LOG      ✓ Compiled in 53ms
+[02:46:54.989] Server  LOG      ✓ Compiled in 62ms
+[02:48:00.103] Server  LOG      ✓ Compiled in 51ms
+[02:48:30.831] Server  LOG      ✓ Compiled in 60ms
+[02:48:36.785] Server  LOG      ✓ Compiled in 54ms
+[02:48:56.295] Server  LOG      ✓ Compiled in 46ms
+[02:50:00.940] Server  LOG      ✓ Compiled in 50ms
+[02:50:09.789] Server  LOG      ✓ Compiled in 58ms
+[02:50:34.460] Server  LOG      ✓ Compiled in 49ms
+[02:50:44.060] Server  LOG      ✓ Compiled in 56ms
+[02:50:55.982] Server  LOG      ✓ Compiled in 51ms
+[02:51:02.674] Server  LOG      ✓ Compiled in 42ms
+[02:51:11.340] Server  LOG      ✓ Compiled in 119ms
+[02:51:18.925] Server  LOG      ✓ Compiled in 40ms
+[02:51:40.719] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:51:42.360] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
