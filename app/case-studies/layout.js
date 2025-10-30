@@ -1,6 +1,7 @@
 // import PrimeroleHeader from '../components/PrimeroleHeader'
 // import PrimeroleFooter from '../components/PrimeroleFooter'
 
+
 export default function CaseStudiesLayout({ children }) {
   return (
     <div>
@@ -8,7 +9,7 @@ export default function CaseStudiesLayout({ children }) {
       
       <header style={{ 
         background: '#1e293b', 
-        color: 'white', 
+        color: 'white',
         padding: '20px 0',
         textAlign: 'center',
         marginBottom: '0'
@@ -21,9 +22,8 @@ export default function CaseStudiesLayout({ children }) {
           </nav>
         </div>
       </header>
-      
+          
       <main>{children}</main>
-   
     </div>
   )
 }

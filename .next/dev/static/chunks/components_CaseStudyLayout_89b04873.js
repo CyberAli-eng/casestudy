@@ -1198,167 +1198,137 @@ function CaseStudyLayout({ data }) {
             data.beforeAfter && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
                 className: "py-15 bg-white",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8",
+                    className: "max-w-5xl mx-auto px-4 sm:px-6 lg:px-8",
                     children: [
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
-                            initial: {
-                                opacity: 0,
-                                y: 20
-                            },
-                            whileInView: {
-                                opacity: 1,
-                                y: 0
-                            },
-                            transition: {
-                                duration: 0.6
-                            },
-                            viewport: {
-                                once: true
-                            },
-                            className: "text-center mb-16",
-                            children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                    className: "text-3xl font-bold text-gray-900 mb-4",
-                                    children: data.beforeAfter.title
-                                }, void 0, false, {
-                                    fileName: "[project]/components/CaseStudyLayout.js",
-                                    lineNumber: 454,
-                                    columnNumber: 15
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                    className: "text-2xl text-gray-600",
-                                    children: data.beforeAfter.subtitle
-                                }, void 0, false, {
-                                    fileName: "[project]/components/CaseStudyLayout.js",
-                                    lineNumber: 455,
-                                    columnNumber: 15
-                                }, this)
-                            ]
-                        }, void 0, true, {
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                            className: "text-3xl font-bold text-gray-900 text-center mb-8",
+                            children: "Before vs After: Measurable Impact"
+                        }, void 0, false, {
                             fileName: "[project]/components/CaseStudyLayout.js",
                             lineNumber: 447,
-                            columnNumber: 13
+                            columnNumber: 5
                         }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
-                            variants: staggerChildren,
-                            initial: "initial",
-                            whileInView: "animate",
-                            viewport: {
-                                once: true
-                            },
-                            className: "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6",
-                            children: data.beforeAfter.items.map((item, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
-                                    variants: fadeInUp,
-                                    className: "bg-white rounded-2xl p-6 shadow-sm border border-gray-100 text-center hover:shadow-md transition-all",
-                                    children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                            className: "text-lg font-semibold text-gray-900 mb-6",
-                                            children: item.title
-                                        }, void 0, false, {
-                                            fileName: "[project]/components/CaseStudyLayout.js",
-                                            lineNumber: 471,
-                                            columnNumber: 19
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "flex items-center justify-between mb-4",
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "bg-white rounded-2xl border border-gray-200 shadow-sm overflow-hidden",
+                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("table", {
+                                className: "w-full text-left",
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("thead", {
+                                        className: "bg-gray-50 text-gray-600 text-lg",
+                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("tr", {
                                             children: [
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    className: "text-center",
-                                                    children: [
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                            className: "text-lg text-gray-500 mb-1",
-                                                            children: "Before"
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/components/CaseStudyLayout.js",
-                                                            lineNumber: 475,
-                                                            columnNumber: 23
-                                                        }, this),
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                            className: "text-xl font-bold text-red-600",
-                                                            children: item.before
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/components/CaseStudyLayout.js",
-                                                            lineNumber: 476,
-                                                            columnNumber: 23
-                                                        }, this)
-                                                    ]
-                                                }, void 0, true, {
-                                                    fileName: "[project]/components/CaseStudyLayout.js",
-                                                    lineNumber: 474,
-                                                    columnNumber: 21
-                                                }, this),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    className: "text-indigo-600 mx-4",
-                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FaArrowRight"], {}, void 0, false, {
-                                                        fileName: "[project]/components/CaseStudyLayout.js",
-                                                        lineNumber: 480,
-                                                        columnNumber: 23
-                                                    }, this)
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("th", {
+                                                    className: "p-4 font-semibold",
+                                                    children: "Metric"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/CaseStudyLayout.js",
-                                                    lineNumber: 479,
-                                                    columnNumber: 21
+                                                    lineNumber: 455,
+                                                    columnNumber: 13
                                                 }, this),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    className: "text-center",
-                                                    children: [
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                            className: "text-lg text-gray-500 mb-1",
-                                                            children: "After"
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/components/CaseStudyLayout.js",
-                                                            lineNumber: 484,
-                                                            columnNumber: 23
-                                                        }, this),
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                            className: "text-xl font-bold text-green-600",
-                                                            children: item.after
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/components/CaseStudyLayout.js",
-                                                            lineNumber: 485,
-                                                            columnNumber: 23
-                                                        }, this)
-                                                    ]
-                                                }, void 0, true, {
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("th", {
+                                                    className: "p-4 font-semibold text-red-600",
+                                                    children: "Before"
+                                                }, void 0, false, {
                                                     fileName: "[project]/components/CaseStudyLayout.js",
-                                                    lineNumber: 483,
-                                                    columnNumber: 21
+                                                    lineNumber: 456,
+                                                    columnNumber: 13
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("th", {
+                                                    className: "p-4 font-semibold text-green-600",
+                                                    children: "After"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/components/CaseStudyLayout.js",
+                                                    lineNumber: 457,
+                                                    columnNumber: 13
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("th", {
+                                                    className: "p-4 font-semibold text-indigo-600",
+                                                    children: "Improvement"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/components/CaseStudyLayout.js",
+                                                    lineNumber: 458,
+                                                    columnNumber: 13
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/CaseStudyLayout.js",
-                                            lineNumber: 473,
-                                            columnNumber: 19
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "text-lg font-semibold text-indigo-600 rounded-full py-2 px-4",
-                                            children: item.improvement
-                                        }, void 0, false, {
-                                            fileName: "[project]/components/CaseStudyLayout.js",
-                                            lineNumber: 489,
-                                            columnNumber: 19
+                                            lineNumber: 454,
+                                            columnNumber: 11
                                         }, this)
-                                    ]
-                                }, index, true, {
-                                    fileName: "[project]/components/CaseStudyLayout.js",
-                                    lineNumber: 466,
-                                    columnNumber: 17
-                                }, this))
+                                    }, void 0, false, {
+                                        fileName: "[project]/components/CaseStudyLayout.js",
+                                        lineNumber: 453,
+                                        columnNumber: 9
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("tbody", {
+                                        className: "text-lg text-gray-700",
+                                        children: data.beforeAfter.items.map((item, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("tr", {
+                                                className: "border-t",
+                                                children: [
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
+                                                        className: "p-4 font-semibold",
+                                                        children: item.title
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/components/CaseStudyLayout.js",
+                                                        lineNumber: 464,
+                                                        columnNumber: 15
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
+                                                        className: "p-4 text-red-600",
+                                                        children: item.before
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/components/CaseStudyLayout.js",
+                                                        lineNumber: 465,
+                                                        columnNumber: 15
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
+                                                        className: "p-4 text-green-600",
+                                                        children: item.after
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/components/CaseStudyLayout.js",
+                                                        lineNumber: 466,
+                                                        columnNumber: 15
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
+                                                        className: "p-4 text-indigo-600 font-semibold",
+                                                        children: item.improvement
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/components/CaseStudyLayout.js",
+                                                        lineNumber: 467,
+                                                        columnNumber: 15
+                                                    }, this)
+                                                ]
+                                            }, i, true, {
+                                                fileName: "[project]/components/CaseStudyLayout.js",
+                                                lineNumber: 463,
+                                                columnNumber: 13
+                                            }, this))
+                                    }, void 0, false, {
+                                        fileName: "[project]/components/CaseStudyLayout.js",
+                                        lineNumber: 461,
+                                        columnNumber: 9
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/components/CaseStudyLayout.js",
+                                lineNumber: 452,
+                                columnNumber: 7
+                            }, this)
                         }, void 0, false, {
                             fileName: "[project]/components/CaseStudyLayout.js",
-                            lineNumber: 458,
-                            columnNumber: 13
+                            lineNumber: 451,
+                            columnNumber: 5
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/CaseStudyLayout.js",
                     lineNumber: 446,
-                    columnNumber: 11
+                    columnNumber: 3
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/components/CaseStudyLayout.js",
                 lineNumber: 445,
-                columnNumber: 9
+                columnNumber: 7
             }, this),
             data.resultsByRole && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
                 className: "py-15 bg-white",
@@ -1387,7 +1357,7 @@ function CaseStudyLayout({ data }) {
                                     children: data.resultsByRole.title
                                 }, void 0, false, {
                                     fileName: "[project]/components/CaseStudyLayout.js",
-                                    lineNumber: 510,
+                                    lineNumber: 489,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1395,13 +1365,13 @@ function CaseStudyLayout({ data }) {
                                     children: data.resultsByRole.subtitle
                                 }, void 0, false, {
                                     fileName: "[project]/components/CaseStudyLayout.js",
-                                    lineNumber: 511,
+                                    lineNumber: 490,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/CaseStudyLayout.js",
-                            lineNumber: 503,
+                            lineNumber: 482,
                             columnNumber: 13
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1432,7 +1402,7 @@ function CaseStudyLayout({ data }) {
                                                     children: role.icon
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/CaseStudyLayout.js",
-                                                    lineNumber: 525,
+                                                    lineNumber: 504,
                                                     columnNumber: 21
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1442,7 +1412,7 @@ function CaseStudyLayout({ data }) {
                                                             children: role.role
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/CaseStudyLayout.js",
-                                                            lineNumber: 527,
+                                                            lineNumber: 506,
                                                             columnNumber: 23
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1450,19 +1420,19 @@ function CaseStudyLayout({ data }) {
                                                             children: role.description
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/CaseStudyLayout.js",
-                                                            lineNumber: 528,
+                                                            lineNumber: 507,
                                                             columnNumber: 23
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/CaseStudyLayout.js",
-                                                    lineNumber: 526,
+                                                    lineNumber: 505,
                                                     columnNumber: 21
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/CaseStudyLayout.js",
-                                            lineNumber: 524,
+                                            lineNumber: 503,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1473,7 +1443,7 @@ function CaseStudyLayout({ data }) {
                                                     children: role.benefitsTitle
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/CaseStudyLayout.js",
-                                                    lineNumber: 533,
+                                                    lineNumber: 512,
                                                     columnNumber: 21
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -1485,25 +1455,25 @@ function CaseStudyLayout({ data }) {
                                                                     className: "text-green-500 flex-shrink-0"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/CaseStudyLayout.js",
-                                                                    lineNumber: 537,
+                                                                    lineNumber: 516,
                                                                     columnNumber: 27
                                                                 }, this),
                                                                 benefit
                                                             ]
                                                         }, benefitIndex, true, {
                                                             fileName: "[project]/components/CaseStudyLayout.js",
-                                                            lineNumber: 536,
+                                                            lineNumber: 515,
                                                             columnNumber: 25
                                                         }, this))
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/CaseStudyLayout.js",
-                                                    lineNumber: 534,
+                                                    lineNumber: 513,
                                                     columnNumber: 21
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/CaseStudyLayout.js",
-                                            lineNumber: 532,
+                                            lineNumber: 511,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1511,29 +1481,29 @@ function CaseStudyLayout({ data }) {
                                             children: role.details
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.js",
-                                            lineNumber: 544,
+                                            lineNumber: 523,
                                             columnNumber: 19
                                         }, this)
                                     ]
                                 }, index, true, {
                                     fileName: "[project]/components/CaseStudyLayout.js",
-                                    lineNumber: 516,
+                                    lineNumber: 495,
                                     columnNumber: 17
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/components/CaseStudyLayout.js",
-                            lineNumber: 514,
+                            lineNumber: 493,
                             columnNumber: 13
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/CaseStudyLayout.js",
-                    lineNumber: 502,
+                    lineNumber: 481,
                     columnNumber: 11
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/components/CaseStudyLayout.js",
-                lineNumber: 501,
+                lineNumber: 480,
                 columnNumber: 9
             }, this),
             data.testimonial && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1560,7 +1530,7 @@ function CaseStudyLayout({ data }) {
                                 className: "text-4xl text-white mx-auto mb-8"
                             }, void 0, false, {
                                 fileName: "[project]/components/CaseStudyLayout.js",
-                                lineNumber: 562,
+                                lineNumber: 541,
                                 columnNumber: 15
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("blockquote", {
@@ -1572,7 +1542,7 @@ function CaseStudyLayout({ data }) {
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/CaseStudyLayout.js",
-                                lineNumber: 563,
+                                lineNumber: 542,
                                 columnNumber: 15
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1582,7 +1552,7 @@ function CaseStudyLayout({ data }) {
                                         children: data.testimonial.author
                                     }, void 0, false, {
                                         fileName: "[project]/components/CaseStudyLayout.js",
-                                        lineNumber: 567,
+                                        lineNumber: 546,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1590,29 +1560,29 @@ function CaseStudyLayout({ data }) {
                                         children: data.testimonial.role
                                     }, void 0, false, {
                                         fileName: "[project]/components/CaseStudyLayout.js",
-                                        lineNumber: 568,
+                                        lineNumber: 547,
                                         columnNumber: 17
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/CaseStudyLayout.js",
-                                lineNumber: 566,
+                                lineNumber: 545,
                                 columnNumber: 15
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/CaseStudyLayout.js",
-                        lineNumber: 556,
+                        lineNumber: 535,
                         columnNumber: 13
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/components/CaseStudyLayout.js",
-                    lineNumber: 555,
+                    lineNumber: 534,
                     columnNumber: 11
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/components/CaseStudyLayout.js",
-                lineNumber: 554,
+                lineNumber: 533,
                 columnNumber: 9
             }, this),
             data.summary && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1642,7 +1612,7 @@ function CaseStudyLayout({ data }) {
                                     children: data.summary.title
                                 }, void 0, false, {
                                     fileName: "[project]/components/CaseStudyLayout.js",
-                                    lineNumber: 587,
+                                    lineNumber: 566,
                                     columnNumber: 17
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1650,7 +1620,7 @@ function CaseStudyLayout({ data }) {
                                     children: data.summary.challenges
                                 }, void 0, false, {
                                     fileName: "[project]/components/CaseStudyLayout.js",
-                                    lineNumber: 589,
+                                    lineNumber: 568,
                                     columnNumber: 17
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1658,7 +1628,7 @@ function CaseStudyLayout({ data }) {
                                     children: data.summary.solution
                                 }, void 0, false, {
                                     fileName: "[project]/components/CaseStudyLayout.js",
-                                    lineNumber: 593,
+                                    lineNumber: 572,
                                     columnNumber: 17
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1686,7 +1656,7 @@ function CaseStudyLayout({ data }) {
                                                     children: outcome.value
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/CaseStudyLayout.js",
-                                                    lineNumber: 609,
+                                                    lineNumber: 588,
                                                     columnNumber: 23
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1694,18 +1664,18 @@ function CaseStudyLayout({ data }) {
                                                     children: outcome.label
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/CaseStudyLayout.js",
-                                                    lineNumber: 612,
+                                                    lineNumber: 591,
                                                     columnNumber: 23
                                                 }, this)
                                             ]
                                         }, index, true, {
                                             fileName: "[project]/components/CaseStudyLayout.js",
-                                            lineNumber: 600,
+                                            lineNumber: 579,
                                             columnNumber: 21
                                         }, this))
                                 }, void 0, false, {
                                     fileName: "[project]/components/CaseStudyLayout.js",
-                                    lineNumber: 598,
+                                    lineNumber: 577,
                                     columnNumber: 17
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1716,7 +1686,7 @@ function CaseStudyLayout({ data }) {
                                             children: data.summary.outcometitle
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.js",
-                                            lineNumber: 621,
+                                            lineNumber: 600,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1724,34 +1694,34 @@ function CaseStudyLayout({ data }) {
                                             children: data.summary.conclusion
                                         }, void 0, false, {
                                             fileName: "[project]/components/CaseStudyLayout.js",
-                                            lineNumber: 622,
+                                            lineNumber: 601,
                                             columnNumber: 19
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/CaseStudyLayout.js",
-                                    lineNumber: 620,
+                                    lineNumber: 599,
                                     columnNumber: 17
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/CaseStudyLayout.js",
-                            lineNumber: 586,
+                            lineNumber: 565,
                             columnNumber: 15
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/CaseStudyLayout.js",
-                        lineNumber: 579,
+                        lineNumber: 558,
                         columnNumber: 13
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/components/CaseStudyLayout.js",
-                    lineNumber: 578,
+                    lineNumber: 557,
                     columnNumber: 11
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/components/CaseStudyLayout.js",
-                lineNumber: 577,
+                lineNumber: 556,
                 columnNumber: 9
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("footer", {
@@ -1763,12 +1733,12 @@ function CaseStudyLayout({ data }) {
                             className: "mb-6 flex items-center justify-center gap-4",
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(PrimeRoleLogo, {}, void 0, false, {
                                 fileName: "[project]/components/CaseStudyLayout.js",
-                                lineNumber: 636,
+                                lineNumber: 615,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/components/CaseStudyLayout.js",
-                            lineNumber: 635,
+                            lineNumber: 614,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1780,18 +1750,18 @@ function CaseStudyLayout({ data }) {
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/CaseStudyLayout.js",
-                            lineNumber: 638,
+                            lineNumber: 617,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/CaseStudyLayout.js",
-                    lineNumber: 634,
+                    lineNumber: 613,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/components/CaseStudyLayout.js",
-                lineNumber: 633,
+                lineNumber: 612,
                 columnNumber: 7
             }, this)
         ]

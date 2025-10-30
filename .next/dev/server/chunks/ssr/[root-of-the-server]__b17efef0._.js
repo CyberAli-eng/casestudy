@@ -112,22 +112,22 @@ const lambdatestData = {
         description: 'LambdaTest is an AI-native test orchestration platform used by 10,000+ customers in 132 countries. To drive growth, the company built a large revenue team that included:',
         team: [
             {
-                icon: '👥',
+                icon: 'users',
                 title: '100+ BDRs',
                 description: 'Business Development Representatives for outbound prospecting'
             },
             {
-                icon: '📥',
+                icon: 'inbox',
                 title: 'Inbound Team',
                 description: 'Strong inbound qualification team'
             },
             {
-                icon: '💼',
+                icon: 'briefcase',
                 title: 'Account Executives',
                 description: 'Multiple AEs managing opportunities'
             },
             {
-                icon: '📈',
+                icon: 'line-chart',
                 title: 'Account Managers',
                 description: 'AMs focusing on retention and expansion'
             }
@@ -135,17 +135,17 @@ const lambdatestData = {
         challengesTitle: 'By 2024, Scaling This Model Had Become Difficult',
         challenges: [
             {
-                icon: '💰',
+                icon: 'dollar-sign',
                 title: 'Rising Costs',
                 description: 'Costs were rising across tools and data providers'
             },
             {
-                icon: '⚡',
+                icon: 'zap',
                 title: 'Slipping Efficiency',
                 description: 'Efficiency was slipping due to manual work and fragmented processes'
             },
             {
-                icon: '👁️',
+                icon: 'eye',
                 title: 'Limited Visibility',
                 description: 'Leadership lacked consistent visibility into performance'
             }
@@ -158,27 +158,27 @@ const lambdatestData = {
         subtitle: 'Key challenges that needed solving',
         items: [
             {
-                icon: '💰',
+                icon: 'dollar-sign',
                 title: 'Costly, Unreliable Data',
                 description: 'LambdaTest was spending more than $250,000 annually across several data providers. Despite the spending, contact records were often duplicated, inconsistent, or outdated. Reps wasted time verifying contacts manually, and bounce rates remained high. The company was paying for volume but not achieving the quality needed for consistent outreach.'
             },
             {
-                icon: '⏱️',
+                icon: 'clock',
                 title: 'Manual Work Consumed Time',
                 description: 'BDRs and SDRs lost more than four hours each day to enrichment, CRM updates, and research before sending their first email or making their first call. AEs spent hours writing call notes and updating systems. AMs relied on scattered tools to track account health. Across the revenue team, a large portion of time went into tasks that could not directly create pipeline or revenue.'
             },
             {
-                icon: '🎯',
+                icon: 'target',
                 title: 'Personalization at Scale Got Challenging',
                 description: 'Prospects expect communication that reflects their role, company situation, and priorities. For LambdaTest, doing this at scale was difficult. Without a reliable way to surface insights quickly, personalization required heavy manual effort. Outreach lacked consistency across the team, and response rates were not as strong as expected.'
             },
             {
-                icon: '🛠️',
+                icon: 'settings',
                 title: 'Coaching Tools Were Siloed',
                 description: 'Coaching tools were available, but they worked in silos and could not be orchestrated within a single platform or connected easily to the existing tech stack. Less than 40 percent of outbound calls were consistently recorded, and only 20 percent of those were reviewed by managers. More than 70 percent of the feedback was anecdotal.'
             },
             {
-                icon: '📊',
+                icon: 'pie-chart',
                 title: 'Pipeline Insights Were Fragmented and Delayed',
                 description: 'At the leadership level, information was spread across multiple systems. Reporting was inconsistent and often delayed. It was difficult to track inbound conversion, pipeline health, or deal risk. Forecasts were built on partial information, which made them less reliable. Decisions often relied on intuition rather than consistent signals.'
             }
@@ -213,22 +213,22 @@ const lambdatestData = {
         subtitle: 'Four-Step Transformation Process',
         steps: [
             {
-                icon: '📊',
+                icon: 'database',
                 title: 'Data Unification',
                 description: 'Consolidated multiple data sources into accurate, verified contacts'
             },
             {
-                icon: '⚙️',
+                icon: 'workflow',
                 title: 'Workflow Automation',
                 description: 'Automated manual tasks, freeing up 4+ hours daily per rep'
             },
             {
-                icon: '🤖',
+                icon: 'brain',
                 title: 'AI-Powered Insights',
                 description: 'Intelligent scoring and personalization at scale'
             },
             {
-                icon: '🔗',
+                icon: 'link',
                 title: 'Unified Platform',
                 description: 'Single source of truth for leadership visibility'
             }
@@ -286,7 +286,7 @@ const lambdatestData = {
         roles: [
             {
                 role: 'BDRs & SDRs',
-                icon: '🚀',
+                icon: 'rocket',
                 description: 'Increased productivity and meeting bookings',
                 benefitsTitle: 'Key Benefits:',
                 benefits: [
@@ -298,7 +298,7 @@ const lambdatestData = {
             },
             {
                 role: 'Account Executives',
-                icon: '💼',
+                icon: 'briefcase',
                 description: 'Faster deal closure and improved win rates',
                 benefitsTitle: 'Key Benefits:',
                 benefits: [
@@ -310,7 +310,7 @@ const lambdatestData = {
             },
             {
                 role: 'Account Managers',
-                icon: '📈',
+                icon: 'trending-up',
                 description: 'Proactive account management and expansion',
                 benefitsTitle: 'Key Benefits:',
                 benefits: [
@@ -322,7 +322,7 @@ const lambdatestData = {
             },
             {
                 role: 'Leadership',
-                icon: '👁️',
+                icon: 'eye',
                 description: 'Complete visibility and data-driven decisions',
                 benefitsTitle: 'Key Benefits:',
                 benefits: [
@@ -368,7 +368,7 @@ function LambdaTestPage() {
         data: lambdatestData
     }, void 0, false, {
         fileName: "[project]/app/case-studies/lambdatest/page.js",
-        lineNumber: 309,
+        lineNumber: 311,
         columnNumber: 10
     }, this);
 }

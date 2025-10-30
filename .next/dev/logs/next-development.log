@@ -1,122 +1,438 @@
-[00:00:02.708] Server  LOG      ✓ Ready in 1741ms
-[00:00:06.323] Server  LOG      ○ Compiling /case-studies/lambdatest ...
-[00:00:12.640] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:15.406] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:15.496] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:01:51.385] Server  LOG      ✓ Compiled in 281ms
-[00:02:52.058] Server  LOG      ✓ Compiled in 100ms
-[00:05:13.052] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:05:15.419] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:14:43.819] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
-[01:25:46.252] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[01:25:47.178] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
-[01:49:05.544] Server  LOG      ✓ Compiled in 209ms
-[01:49:17.575] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[01:50:26.432] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[01:50:28.460] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
-[01:52:48.608] Server  LOG      ✓ Compiled in 52ms
-[01:54:13.218] Server  LOG      ✓ Compiled in 46ms
-[01:54:16.680] Server  LOG      ✓ Compiled in 53ms
-[01:54:21.543] Server  LOG      ✓ Compiled in 46ms
-[01:54:33.911] Server  LOG      ✓ Compiled in 58ms
-[02:02:58.950] Server  LOG      ✓ Compiled in 85ms
-[02:03:50.019] Server  LOG      ✓ Compiled in 147ms
-[02:04:08.912] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[02:04:56.536] Server  LOG      ✓ Compiled in 72ms
-[02:05:38.876] Server  LOG      ✓ Compiled in 60ms
-[02:06:09.895] Server  LOG      ✓ Compiled in 58ms
-[02:06:25.415] Server  LOG      ✓ Compiled in 44ms
-[02:06:32.049] Server  LOG      ✓ Compiled in 81ms
-[02:06:50.047] Server  LOG      ✓ Compiled in 60ms
-[02:06:55.452] Server  LOG      ✓ Compiled in 55ms
-[02:07:33.902] Server  LOG      ✓ Compiled in 50ms
-[02:07:41.308] Server  LOG      ✓ Compiled in 50ms
-[02:07:48.837] Server  LOG      ✓ Compiled in 56ms
-[02:08:09.305] Server  LOG      ✓ Compiled in 41ms
-[02:08:36.368] Server  LOG      ✓ Compiled in 52ms
-[02:09:14.609] Server  LOG      ✓ Compiled in 46ms
-[02:10:17.962] Server  LOG      ✓ Compiled in 61ms
-[02:10:30.342] Server  LOG      ✓ Compiled in 60ms
-[02:10:38.180] Server  LOG      ✓ Compiled in 58ms
-[02:10:53.482] Server  LOG      ✓ Compiled in 50ms
-[02:13:00.350] Server  LOG      ✓ Compiled in 49ms
-[02:13:15.608] Server  LOG      ✓ Compiled in 114ms
-[02:14:22.279] Server  LOG      ✓ Compiled in 55ms
-[02:14:31.511] Server  LOG      ✓ Compiled in 47ms
-[02:14:51.044] Server  LOG      ✓ Compiled in 59ms
-[02:15:01.094] Server  LOG      ✓ Compiled in 52ms
-[02:15:07.490] Server  LOG      ✓ Compiled in 56ms
-[02:15:14.008] Server  LOG      ✓ Compiled in 51ms
-[02:16:25.622] Server  LOG      ✓ Compiled in 56ms
-[02:16:42.072] Server  LOG      ✓ Compiled in 46ms
-[02:16:49.478] Server  LOG      ✓ Compiled in 68ms
-[02:17:05.593] Server  LOG      ✓ Compiled in 70ms
-[02:17:17.546] Server  LOG      ✓ Compiled in 61ms
-[02:17:36.832] Server  LOG      ✓ Compiled in 51ms
-[02:18:06.459] Server  LOG      ✓ Compiled in 73ms
-[02:18:15.876] Server  LOG      ✓ Compiled in 50ms
-[02:18:44.016] Server  LOG      ✓ Compiled in 60ms
-[02:18:55.537] Server  LOG      ✓ Compiled in 51ms
-[02:19:05.147] Server  LOG      ✓ Compiled in 49ms
-[02:19:12.988] Server  LOG      ✓ Compiled in 46ms
-[02:19:46.592] Server  LOG      ✓ Compiled in 58ms
-[02:19:51.267] Server  LOG      ✓ Compiled in 56ms
-[02:21:16.121] Server  LOG      ✓ Compiled in 58ms
-[02:21:57.956] Server  LOG      ✓ Compiled in 60ms
-[02:22:06.013] Server  LOG      ✓ Compiled in 103ms
-[02:22:26.250] Server  LOG      ✓ Compiled in 51ms
-[02:22:28.521] Server  LOG      ✓ Compiled in 53ms
-[02:24:23.585] Server  LOG      ✓ Compiled in 54ms
-[02:25:26.899] Server  LOG      ✓ Compiled in 51ms
-[02:28:39.587] Server  LOG      ✓ Compiled in 75ms
-[02:31:04.527] Server  LOG      ✓ Compiled in 54ms
-[02:31:42.124] Server  LOG      ✓ Compiled in 134ms
-[02:31:54.238] Server  LOG      ✓ Compiled in 44ms
-[02:32:14.818] Server  LOG      ✓ Compiled in 48ms
-[02:32:26.595] Server  LOG      ✓ Compiled in 48ms
-[02:33:35.739] Server  LOG      ✓ Compiled in 53ms
-[02:36:35.623] Server  LOG      ✓ Compiled in 39ms
-[02:37:17.998] Server  LOG      ✓ Compiled in 55ms
-[02:37:56.816] Server  LOG      ✓ Compiled in 49ms
-[02:38:07.583] Server  LOG      ✓ Compiled in 47ms
-[02:38:14.100] Server  LOG      ✓ Compiled in 57ms
-[02:38:31.405] Server  LOG      ✓ Compiled in 46ms
-[02:39:01.757] Server  LOG      ✓ Compiled in 45ms
-[02:39:13.228] Server  LOG      ✓ Compiled in 48ms
-[02:39:25.507] Server  LOG      ✓ Compiled in 45ms
-[02:39:36.878] Server  LOG      ✓ Compiled in 51ms
-[02:39:52.204] Server  LOG      ✓ Compiled in 52ms
-[02:39:59.206] Server  LOG      ✓ Compiled in 56ms
-[02:40:30.181] Server  LOG      ✓ Compiled in 54ms
-[02:40:54.713] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[02:40:55.812] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
-[02:41:34.728] Server  LOG      ✓ Compiled in 52ms
-[02:41:53.381] Server  LOG      ✓ Compiled in 57ms
-[02:42:03.090] Server  LOG      ✓ Compiled in 58ms
-[02:42:24.267] Server  LOG      ✓ Compiled in 49ms
-[02:42:36.346] Server  LOG      ✓ Compiled in 52ms
-[02:43:12.156] Server  LOG      ✓ Compiled in 53ms
-[02:43:24.590] Server  LOG      ✓ Compiled in 45ms
-[02:43:27.512] Server  LOG      ✓ Compiled in 48ms
-[02:43:40.163] Server  LOG      ✓ Compiled in 62ms
-[02:44:12.087] Server  LOG      ✓ Compiled in 51ms
-[02:44:20.713] Server  LOG      ✓ Compiled in 107ms
-[02:44:27.715] Server  LOG      ✓ Compiled in 54ms
-[02:44:34.717] Server  LOG      ✓ Compiled in 49ms
-[02:44:54.319] Server  LOG      ✓ Compiled in 57ms
-[02:45:11.520] Server  LOG      ✓ Compiled in 53ms
-[02:46:54.989] Server  LOG      ✓ Compiled in 62ms
-[02:48:00.103] Server  LOG      ✓ Compiled in 51ms
-[02:48:30.831] Server  LOG      ✓ Compiled in 60ms
-[02:48:36.785] Server  LOG      ✓ Compiled in 54ms
-[02:48:56.295] Server  LOG      ✓ Compiled in 46ms
-[02:50:00.940] Server  LOG      ✓ Compiled in 50ms
-[02:50:09.789] Server  LOG      ✓ Compiled in 58ms
-[02:50:34.460] Server  LOG      ✓ Compiled in 49ms
-[02:50:44.060] Server  LOG      ✓ Compiled in 56ms
-[02:50:55.982] Server  LOG      ✓ Compiled in 51ms
-[02:51:02.674] Server  LOG      ✓ Compiled in 42ms
-[02:51:11.340] Server  LOG      ✓ Compiled in 119ms
-[02:51:18.925] Server  LOG      ✓ Compiled in 40ms
-[02:51:40.719] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[02:51:42.360] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:00:02.231] Server  LOG      ✓ Ready in 1468ms
+[00:00:06.969] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:09.068] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:04:46.034] Server  LOG      ✓ Compiled in 85ms
+[00:08:50.112] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:08:52.166] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:15:37.561] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:15:38.841] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:18:53.330] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:18:54.373] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:26:03.896] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:26:04.978] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:31:24.904] Server  LOG      ✓ Compiled in 140ms
+[00:37:48.650] Server  LOG      ✓ Compiled in 56ms
+[00:38:10.037] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:38:11.030] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:38:11.928] Server  ERROR   Only plain objects can be passed to Client Components from Server Components. Classes or other objects with methods are not supported.
+  {icon: {$$typeof: ..., render: ...}, title: ..., description: ...}
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[00:38:11.933] Server  ERROR   Only plain objects can be passed to Client Components from Server Components. Classes or other objects with methods are not supported.
+  {icon: {$$typeof: ..., render: ...}, title: ..., description: ...}
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[00:38:11.936] Server  ERROR   Only plain objects can be passed to Client Components from Server Components. Classes or other objects with methods are not supported.
+  {icon: {$$typeof: ..., render: ...}, title: ..., description: ...}
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[00:38:11.938] Server  ERROR   Only plain objects can be passed to Client Components from Server Components. Classes or other objects with methods are not supported.
+  {icon: {$$typeof: ..., render: ...}, title: ..., description: ...}
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[00:38:11.943] Server  ERROR   Only plain objects can be passed to Client Components from Server Components. Classes or other objects with methods are not supported.
+  {icon: {$$typeof: ..., render: ...}, title: ..., description: ...}
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[00:38:11.944] Server  ERROR   Only plain objects can be passed to Client Components from Server Components. Classes or other objects with methods are not supported.
+  {icon: {$$typeof: ..., render: ...}, title: ..., description: ...}
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[00:38:11.947] Server  ERROR   Only plain objects can be passed to Client Components from Server Components. Classes or other objects with methods are not supported.
+  {icon: {$$typeof: ..., render: ...}, title: ..., description: ...}
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[00:38:12.384] Server  ERROR    ⨯ Error: Functions cannot be passed directly to Client Components unless you explicitly expose it by marking it with "use server". Or maybe you meant to call this function rather than return it.
+  {$$typeof: ..., render: function Users}
+                          ^^^^^^^^^^^^^^
+[00:38:12.665] Server  ERROR    ⨯ Error: Functions cannot be passed directly to Client Components unless you explicitly expose it by marking it with "use server". Or maybe you meant to call this function rather than return it.
+  {$$typeof: ..., render: function Inbox}
+                          ^^^^^^^^^^^^^^
+[00:38:12.904] Server  ERROR    ⨯ Error: Functions cannot be passed directly to Client Components unless you explicitly expose it by marking it with "use server". Or maybe you meant to call this function rather than return it.
+  {$$typeof: ..., render: function Briefcase}
+                          ^^^^^^^^^^^^^^^^^^
+[00:38:13.163] Server  ERROR    ⨯ Error: Functions cannot be passed directly to Client Components unless you explicitly expose it by marking it with "use server". Or maybe you meant to call this function rather than return it.
+  {$$typeof: ..., render: function ChartLine}
+                          ^^^^^^^^^^^^^^^^^^
+[00:38:13.397] Server  ERROR    ⨯ Error: Functions cannot be passed directly to Client Components unless you explicitly expose it by marking it with "use server". Or maybe you meant to call this function rather than return it.
+  {$$typeof: ..., render: function DollarSign}
+                          ^^^^^^^^^^^^^^^^^^^
+[00:38:13.632] Server  ERROR    ⨯ Error: Functions cannot be passed directly to Client Components unless you explicitly expose it by marking it with "use server". Or maybe you meant to call this function rather than return it.
+  {$$typeof: ..., render: function Zap}
+                          ^^^^^^^^^^^^
+[00:38:13.873] Server  ERROR    ⨯ Error: Functions cannot be passed directly to Client Components unless you explicitly expose it by marking it with "use server". Or maybe you meant to call this function rather than return it.
+  {$$typeof: ..., render: function Eye}
+                          ^^^^^^^^^^^^
+[00:38:14.088] Browser ERROR   uncaughtError: Error: Functions cannot be passed directly to Client Components unless you explicitly expose it by marking it with "use server". Or maybe you meant to call this function rather than return it.
+  {$$typeof: ..., render: function Users}
+                          ^^^^^^^^^^^^^^
+[00:55:38.742] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:55:39.242] Server  ERROR   Only plain objects can be passed to Client Components from Server Components. Classes or other objects with methods are not supported.
+  {icon: {$$typeof: ..., render: ...}, title: ..., description: ...}
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[00:55:39.245] Server  ERROR   Only plain objects can be passed to Client Components from Server Components. Classes or other objects with methods are not supported.
+  {icon: {$$typeof: ..., render: ...}, title: ..., description: ...}
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[00:55:39.247] Server  ERROR   Only plain objects can be passed to Client Components from Server Components. Classes or other objects with methods are not supported.
+  {icon: {$$typeof: ..., render: ...}, title: ..., description: ...}
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[00:55:39.249] Server  ERROR   Only plain objects can be passed to Client Components from Server Components. Classes or other objects with methods are not supported.
+  {icon: {$$typeof: ..., render: ...}, title: ..., description: ...}
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[00:55:39.252] Server  ERROR   Only plain objects can be passed to Client Components from Server Components. Classes or other objects with methods are not supported.
+  {icon: {$$typeof: ..., render: ...}, title: ..., description: ...}
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[00:55:39.254] Server  ERROR   Only plain objects can be passed to Client Components from Server Components. Classes or other objects with methods are not supported.
+  {icon: {$$typeof: ..., render: ...}, title: ..., description: ...}
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[00:55:39.255] Server  ERROR   Only plain objects can be passed to Client Components from Server Components. Classes or other objects with methods are not supported.
+  {icon: {$$typeof: ..., render: ...}, title: ..., description: ...}
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[00:55:39.587] Server  ERROR    ⨯ Error: Functions cannot be passed directly to Client Components unless you explicitly expose it by marking it with "use server". Or maybe you meant to call this function rather than return it.
+  {$$typeof: ..., render: function Users}
+                          ^^^^^^^^^^^^^^
+[00:55:39.879] Server  ERROR    ⨯ Error: Functions cannot be passed directly to Client Components unless you explicitly expose it by marking it with "use server". Or maybe you meant to call this function rather than return it.
+  {$$typeof: ..., render: function Inbox}
+                          ^^^^^^^^^^^^^^
+[00:55:40.109] Server  ERROR    ⨯ Error: Functions cannot be passed directly to Client Components unless you explicitly expose it by marking it with "use server". Or maybe you meant to call this function rather than return it.
+  {$$typeof: ..., render: function Briefcase}
+                          ^^^^^^^^^^^^^^^^^^
+[00:55:40.352] Server  ERROR    ⨯ Error: Functions cannot be passed directly to Client Components unless you explicitly expose it by marking it with "use server". Or maybe you meant to call this function rather than return it.
+  {$$typeof: ..., render: function ChartLine}
+                          ^^^^^^^^^^^^^^^^^^
+[00:55:40.596] Server  ERROR    ⨯ Error: Functions cannot be passed directly to Client Components unless you explicitly expose it by marking it with "use server". Or maybe you meant to call this function rather than return it.
+  {$$typeof: ..., render: function DollarSign}
+                          ^^^^^^^^^^^^^^^^^^^
+[00:55:40.845] Server  ERROR    ⨯ Error: Functions cannot be passed directly to Client Components unless you explicitly expose it by marking it with "use server". Or maybe you meant to call this function rather than return it.
+  {$$typeof: ..., render: function Zap}
+                          ^^^^^^^^^^^^
+[00:55:41.100] Server  ERROR    ⨯ Error: Functions cannot be passed directly to Client Components unless you explicitly expose it by marking it with "use server". Or maybe you meant to call this function rather than return it.
+  {$$typeof: ..., render: function Eye}
+                          ^^^^^^^^^^^^
+[00:55:41.106] Server  LOG      ✓ Compiled in 542ms
+[00:55:41.273] Server  LOG      ✓ Compiled in 0ms
+[00:55:41.295] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:55:42.280] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:55:42.836] Browser ERROR   uncaughtError: Error: Functions cannot be passed directly to Client Components unless you explicitly expose it by marking it with "use server". Or maybe you meant to call this function rather than return it.
+  {$$typeof: ..., render: function Users}
+                          ^^^^^^^^^^^^^^
+[00:55:52.862] Server  ERROR   Only plain objects can be passed to Client Components from Server Components. Classes or other objects with methods are not supported.
+  {icon: {$$typeof: ..., render: ...}, title: ..., description: ...}
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[00:55:52.864] Server  ERROR   Only plain objects can be passed to Client Components from Server Components. Classes or other objects with methods are not supported.
+  {icon: {$$typeof: ..., render: ...}, title: ..., description: ...}
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[00:55:52.865] Server  ERROR   Only plain objects can be passed to Client Components from Server Components. Classes or other objects with methods are not supported.
+  {icon: {$$typeof: ..., render: ...}, title: ..., description: ...}
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[00:55:52.866] Server  ERROR   Only plain objects can be passed to Client Components from Server Components. Classes or other objects with methods are not supported.
+  {icon: {$$typeof: ..., render: ...}, title: ..., description: ...}
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[00:55:52.867] Server  ERROR   Only plain objects can be passed to Client Components from Server Components. Classes or other objects with methods are not supported.
+  {icon: {$$typeof: ..., render: ...}, title: ..., description: ...}
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[00:55:52.868] Server  ERROR   Only plain objects can be passed to Client Components from Server Components. Classes or other objects with methods are not supported.
+  {icon: {$$typeof: ..., render: ...}, title: ..., description: ...}
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[00:55:52.869] Server  ERROR   Only plain objects can be passed to Client Components from Server Components. Classes or other objects with methods are not supported.
+  {icon: {$$typeof: ..., render: ...}, title: ..., description: ...}
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[00:55:53.112] Server  ERROR    ⨯ Error: Functions cannot be passed directly to Client Components unless you explicitly expose it by marking it with "use server". Or maybe you meant to call this function rather than return it.
+  {$$typeof: ..., render: function Users}
+                          ^^^^^^^^^^^^^^
+[00:55:53.345] Server  ERROR    ⨯ Error: Functions cannot be passed directly to Client Components unless you explicitly expose it by marking it with "use server". Or maybe you meant to call this function rather than return it.
+  {$$typeof: ..., render: function Inbox}
+                          ^^^^^^^^^^^^^^
+[00:55:53.610] Server  ERROR    ⨯ Error: Functions cannot be passed directly to Client Components unless you explicitly expose it by marking it with "use server". Or maybe you meant to call this function rather than return it.
+  {$$typeof: ..., render: function Briefcase}
+                          ^^^^^^^^^^^^^^^^^^
+[00:55:53.829] Server  ERROR    ⨯ Error: Functions cannot be passed directly to Client Components unless you explicitly expose it by marking it with "use server". Or maybe you meant to call this function rather than return it.
+  {$$typeof: ..., render: function ChartLine}
+                          ^^^^^^^^^^^^^^^^^^
+[00:55:54.063] Server  ERROR    ⨯ Error: Functions cannot be passed directly to Client Components unless you explicitly expose it by marking it with "use server". Or maybe you meant to call this function rather than return it.
+  {$$typeof: ..., render: function DollarSign}
+                          ^^^^^^^^^^^^^^^^^^^
+[00:55:54.286] Server  ERROR    ⨯ Error: Functions cannot be passed directly to Client Components unless you explicitly expose it by marking it with "use server". Or maybe you meant to call this function rather than return it.
+  {$$typeof: ..., render: function Zap}
+                          ^^^^^^^^^^^^
+[00:55:54.509] Server  ERROR    ⨯ Error: Functions cannot be passed directly to Client Components unless you explicitly expose it by marking it with "use server". Or maybe you meant to call this function rather than return it.
+  {$$typeof: ..., render: function Eye}
+                          ^^^^^^^^^^^^
+[00:55:54.717] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:55:54.717] Browser ERROR   uncaughtError: Error: Functions cannot be passed directly to Client Components unless you explicitly expose it by marking it with "use server". Or maybe you meant to call this function rather than return it.
+  {$$typeof: ..., render: function Users}
+                          ^^^^^^^^^^^^^^
+[00:59:31.548] Server  ERROR   Only plain objects can be passed to Client Components from Server Components. Classes or other objects with methods are not supported.
+  {icon: {$$typeof: ..., render: ...}, title: ..., description: ...}
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[00:59:31.551] Server  ERROR   Only plain objects can be passed to Client Components from Server Components. Classes or other objects with methods are not supported.
+  {icon: {$$typeof: ..., render: ...}, title: ..., description: ...}
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[00:59:31.554] Server  ERROR   Only plain objects can be passed to Client Components from Server Components. Classes or other objects with methods are not supported.
+  {icon: {$$typeof: ..., render: ...}, title: ..., description: ...}
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[00:59:31.556] Server  ERROR   Only plain objects can be passed to Client Components from Server Components. Classes or other objects with methods are not supported.
+  {icon: {$$typeof: ..., render: ...}, title: ..., description: ...}
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[00:59:31.559] Server  ERROR   Only plain objects can be passed to Client Components from Server Components. Classes or other objects with methods are not supported.
+  {icon: {$$typeof: ..., render: ...}, title: ..., description: ...}
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[00:59:31.564] Server  ERROR   Only plain objects can be passed to Client Components from Server Components. Classes or other objects with methods are not supported.
+  {icon: {$$typeof: ..., render: ...}, title: ..., description: ...}
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[00:59:31.566] Server  ERROR   Only plain objects can be passed to Client Components from Server Components. Classes or other objects with methods are not supported.
+  {icon: {$$typeof: ..., render: ...}, title: ..., description: ...}
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[00:59:31.568] Server  ERROR   Only plain objects can be passed to Client Components from Server Components. Classes or other objects with methods are not supported.
+  {icon: {$$typeof: ..., render: ...}, title: ..., description: ...}
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[00:59:31.570] Server  ERROR   Only plain objects can be passed to Client Components from Server Components. Classes or other objects with methods are not supported.
+  {icon: {$$typeof: ..., render: ...}, title: ..., description: ...}
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[00:59:31.575] Server  ERROR   Only plain objects can be passed to Client Components from Server Components. Classes or other objects with methods are not supported.
+  {icon: {$$typeof: ..., render: ...}, title: ..., description: ...}
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[00:59:31.577] Server  ERROR   Only plain objects can be passed to Client Components from Server Components. Classes or other objects with methods are not supported.
+  {icon: {$$typeof: ..., render: ...}, title: ..., description: ...}
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[00:59:31.578] Server  ERROR   Only plain objects can be passed to Client Components from Server Components. Classes or other objects with methods are not supported.
+  {icon: {$$typeof: ..., render: ...}, title: ..., description: ...}
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[00:59:31.581] Server  ERROR   Only plain objects can be passed to Client Components from Server Components. Classes or other objects with methods are not supported.
+  {icon: {$$typeof: ..., render: ...}, title: ..., description: ...}
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[00:59:31.583] Server  ERROR   Only plain objects can be passed to Client Components from Server Components. Classes or other objects with methods are not supported.
+  {icon: {$$typeof: ..., render: ...}, title: ..., description: ...}
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[00:59:31.587] Server  ERROR   Only plain objects can be passed to Client Components from Server Components. Classes or other objects with methods are not supported.
+  {icon: {$$typeof: ..., render: ...}, title: ..., description: ...}
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[00:59:31.592] Server  ERROR   Only plain objects can be passed to Client Components from Server Components. Classes or other objects with methods are not supported.
+  {role: ..., icon: {$$typeof: ..., render: ...}, description: ..., benefitsTitle: ..., benefits: ..., details: ...}
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[00:59:31.594] Server  ERROR   Only plain objects can be passed to Client Components from Server Components. Classes or other objects with methods are not supported.
+  {role: ..., icon: {$$typeof: ..., render: ...}, description: ..., benefitsTitle: ..., benefits: ..., details: ...}
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[00:59:32.176] Server  ERROR    ⨯ Error: Functions cannot be passed directly to Client Components unless you explicitly expose it by marking it with "use server". Or maybe you meant to call this function rather than return it.
+  {$$typeof: ..., render: function Users}
+                          ^^^^^^^^^^^^^^
+[00:59:32.574] Server  ERROR    ⨯ Error: Functions cannot be passed directly to Client Components unless you explicitly expose it by marking it with "use server". Or maybe you meant to call this function rather than return it.
+  {$$typeof: ..., render: function Inbox}
+                          ^^^^^^^^^^^^^^
+[00:59:32.837] Server  ERROR    ⨯ Error: Functions cannot be passed directly to Client Components unless you explicitly expose it by marking it with "use server". Or maybe you meant to call this function rather than return it.
+  {$$typeof: ..., render: function Briefcase}
+                          ^^^^^^^^^^^^^^^^^^
+[00:59:33.247] Server  ERROR    ⨯ Error: Functions cannot be passed directly to Client Components unless you explicitly expose it by marking it with "use server". Or maybe you meant to call this function rather than return it.
+  {$$typeof: ..., render: function ChartLine}
+                          ^^^^^^^^^^^^^^^^^^
+[00:59:33.612] Server  ERROR    ⨯ Error: Functions cannot be passed directly to Client Components unless you explicitly expose it by marking it with "use server". Or maybe you meant to call this function rather than return it.
+  {$$typeof: ..., render: function DollarSign}
+                          ^^^^^^^^^^^^^^^^^^^
+[00:59:33.877] Server  ERROR    ⨯ Error: Functions cannot be passed directly to Client Components unless you explicitly expose it by marking it with "use server". Or maybe you meant to call this function rather than return it.
+  {$$typeof: ..., render: function Zap}
+                          ^^^^^^^^^^^^
+[00:59:34.127] Server  ERROR    ⨯ Error: Functions cannot be passed directly to Client Components unless you explicitly expose it by marking it with "use server". Or maybe you meant to call this function rather than return it.
+  {$$typeof: ..., render: function Eye}
+                          ^^^^^^^^^^^^
+[00:59:34.370] Server  ERROR    ⨯ Error: Functions cannot be passed directly to Client Components unless you explicitly expose it by marking it with "use server". Or maybe you meant to call this function rather than return it.
+  {$$typeof: ..., render: function Clock}
+                          ^^^^^^^^^^^^^^
+[00:59:34.627] Server  ERROR    ⨯ Error: Functions cannot be passed directly to Client Components unless you explicitly expose it by marking it with "use server". Or maybe you meant to call this function rather than return it.
+  {$$typeof: ..., render: function Target}
+                          ^^^^^^^^^^^^^^^
+[00:59:34.885] Server  ERROR    ⨯ Error: Functions cannot be passed directly to Client Components unless you explicitly expose it by marking it with "use server". Or maybe you meant to call this function rather than return it.
+  {$$typeof: ..., render: function Settings}
+                          ^^^^^^^^^^^^^^^^^
+[00:59:35.157] Server  ERROR    ⨯ Error: Functions cannot be passed directly to Client Components unless you explicitly expose it by marking it with "use server". Or maybe you meant to call this function rather than return it.
+  {$$typeof: ..., render: function ChartPie}
+                          ^^^^^^^^^^^^^^^^^
+[00:59:35.418] Server  ERROR    ⨯ Error: Functions cannot be passed directly to Client Components unless you explicitly expose it by marking it with "use server". Or maybe you meant to call this function rather than return it.
+  {$$typeof: ..., render: function Database}
+                          ^^^^^^^^^^^^^^^^^
+[00:59:35.745] Server  ERROR    ⨯ Error: Functions cannot be passed directly to Client Components unless you explicitly expose it by marking it with "use server". Or maybe you meant to call this function rather than return it.
+  {$$typeof: ..., render: function Workflow}
+                          ^^^^^^^^^^^^^^^^^
+[00:59:35.990] Server  ERROR    ⨯ Error: Functions cannot be passed directly to Client Components unless you explicitly expose it by marking it with "use server". Or maybe you meant to call this function rather than return it.
+  {$$typeof: ..., render: function Brain}
+                          ^^^^^^^^^^^^^^
+[00:59:36.267] Server  ERROR    ⨯ Error: Functions cannot be passed directly to Client Components unless you explicitly expose it by marking it with "use server". Or maybe you meant to call this function rather than return it.
+  {$$typeof: ..., render: function Link}
+                          ^^^^^^^^^^^^^
+[00:59:36.560] Server  ERROR    ⨯ Error: Functions cannot be passed directly to Client Components unless you explicitly expose it by marking it with "use server". Or maybe you meant to call this function rather than return it.
+  {$$typeof: ..., render: function Rocket}
+                          ^^^^^^^^^^^^^^^
+[00:59:36.895] Server  ERROR    ⨯ Error: Functions cannot be passed directly to Client Components unless you explicitly expose it by marking it with "use server". Or maybe you meant to call this function rather than return it.
+  {$$typeof: ..., render: function TrendingUp}
+                          ^^^^^^^^^^^^^^^^^^^
+[00:59:37.385] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:59:37.385] Browser ERROR   uncaughtError: Error: Functions cannot be passed directly to Client Components unless you explicitly expose it by marking it with "use server". Or maybe you meant to call this function rather than return it.
+  {$$typeof: ..., render: function Users}
+                          ^^^^^^^^^^^^^^
+[00:59:39.389] Server  ERROR   Only plain objects can be passed to Client Components from Server Components. Classes or other objects with methods are not supported.
+  {icon: {$$typeof: ..., render: ...}, title: ..., description: ...}
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[00:59:39.391] Server  ERROR   Only plain objects can be passed to Client Components from Server Components. Classes or other objects with methods are not supported.
+  {icon: {$$typeof: ..., render: ...}, title: ..., description: ...}
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[00:59:39.392] Server  ERROR   Only plain objects can be passed to Client Components from Server Components. Classes or other objects with methods are not supported.
+  {icon: {$$typeof: ..., render: ...}, title: ..., description: ...}
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[00:59:39.393] Server  ERROR   Only plain objects can be passed to Client Components from Server Components. Classes or other objects with methods are not supported.
+  {icon: {$$typeof: ..., render: ...}, title: ..., description: ...}
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[00:59:39.394] Server  ERROR   Only plain objects can be passed to Client Components from Server Components. Classes or other objects with methods are not supported.
+  {icon: {$$typeof: ..., render: ...}, title: ..., description: ...}
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[00:59:39.395] Server  ERROR   Only plain objects can be passed to Client Components from Server Components. Classes or other objects with methods are not supported.
+  {icon: {$$typeof: ..., render: ...}, title: ..., description: ...}
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[00:59:39.397] Server  ERROR   Only plain objects can be passed to Client Components from Server Components. Classes or other objects with methods are not supported.
+  {icon: {$$typeof: ..., render: ...}, title: ..., description: ...}
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[00:59:39.399] Server  ERROR   Only plain objects can be passed to Client Components from Server Components. Classes or other objects with methods are not supported.
+  {icon: {$$typeof: ..., render: ...}, title: ..., description: ...}
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[00:59:39.401] Server  ERROR   Only plain objects can be passed to Client Components from Server Components. Classes or other objects with methods are not supported.
+  {icon: {$$typeof: ..., render: ...}, title: ..., description: ...}
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[00:59:39.402] Server  ERROR   Only plain objects can be passed to Client Components from Server Components. Classes or other objects with methods are not supported.
+  {icon: {$$typeof: ..., render: ...}, title: ..., description: ...}
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[00:59:39.403] Server  ERROR   Only plain objects can be passed to Client Components from Server Components. Classes or other objects with methods are not supported.
+  {icon: {$$typeof: ..., render: ...}, title: ..., description: ...}
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[00:59:39.404] Server  ERROR   Only plain objects can be passed to Client Components from Server Components. Classes or other objects with methods are not supported.
+  {icon: {$$typeof: ..., render: ...}, title: ..., description: ...}
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[00:59:39.405] Server  ERROR   Only plain objects can be passed to Client Components from Server Components. Classes or other objects with methods are not supported.
+  {icon: {$$typeof: ..., render: ...}, title: ..., description: ...}
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[00:59:39.406] Server  ERROR   Only plain objects can be passed to Client Components from Server Components. Classes or other objects with methods are not supported.
+  {icon: {$$typeof: ..., render: ...}, title: ..., description: ...}
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[00:59:39.407] Server  ERROR   Only plain objects can be passed to Client Components from Server Components. Classes or other objects with methods are not supported.
+  {icon: {$$typeof: ..., render: ...}, title: ..., description: ...}
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[00:59:39.408] Server  ERROR   Only plain objects can be passed to Client Components from Server Components. Classes or other objects with methods are not supported.
+  {role: ..., icon: {$$typeof: ..., render: ...}, description: ..., benefitsTitle: ..., benefits: ..., details: ...}
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[00:59:39.408] Server  ERROR   Only plain objects can be passed to Client Components from Server Components. Classes or other objects with methods are not supported.
+  {role: ..., icon: {$$typeof: ..., render: ...}, description: ..., benefitsTitle: ..., benefits: ..., details: ...}
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[00:59:39.652] Server  ERROR    ⨯ Error: Functions cannot be passed directly to Client Components unless you explicitly expose it by marking it with "use server". Or maybe you meant to call this function rather than return it.
+  {$$typeof: ..., render: function Users}
+                          ^^^^^^^^^^^^^^
+[00:59:39.915] Server  ERROR    ⨯ Error: Functions cannot be passed directly to Client Components unless you explicitly expose it by marking it with "use server". Or maybe you meant to call this function rather than return it.
+  {$$typeof: ..., render: function Inbox}
+                          ^^^^^^^^^^^^^^
+[00:59:40.148] Server  ERROR    ⨯ Error: Functions cannot be passed directly to Client Components unless you explicitly expose it by marking it with "use server". Or maybe you meant to call this function rather than return it.
+  {$$typeof: ..., render: function Briefcase}
+                          ^^^^^^^^^^^^^^^^^^
+[00:59:40.479] Server  ERROR    ⨯ Error: Functions cannot be passed directly to Client Components unless you explicitly expose it by marking it with "use server". Or maybe you meant to call this function rather than return it.
+  {$$typeof: ..., render: function ChartLine}
+                          ^^^^^^^^^^^^^^^^^^
+[00:59:40.742] Server  ERROR    ⨯ Error: Functions cannot be passed directly to Client Components unless you explicitly expose it by marking it with "use server". Or maybe you meant to call this function rather than return it.
+  {$$typeof: ..., render: function DollarSign}
+                          ^^^^^^^^^^^^^^^^^^^
+[00:59:40.974] Server  ERROR    ⨯ Error: Functions cannot be passed directly to Client Components unless you explicitly expose it by marking it with "use server". Or maybe you meant to call this function rather than return it.
+  {$$typeof: ..., render: function Zap}
+                          ^^^^^^^^^^^^
+[00:59:41.216] Server  ERROR    ⨯ Error: Functions cannot be passed directly to Client Components unless you explicitly expose it by marking it with "use server". Or maybe you meant to call this function rather than return it.
+  {$$typeof: ..., render: function Eye}
+                          ^^^^^^^^^^^^
+[00:59:41.490] Server  ERROR    ⨯ Error: Functions cannot be passed directly to Client Components unless you explicitly expose it by marking it with "use server". Or maybe you meant to call this function rather than return it.
+  {$$typeof: ..., render: function Clock}
+                          ^^^^^^^^^^^^^^
+[00:59:41.779] Server  ERROR    ⨯ Error: Functions cannot be passed directly to Client Components unless you explicitly expose it by marking it with "use server". Or maybe you meant to call this function rather than return it.
+  {$$typeof: ..., render: function Target}
+                          ^^^^^^^^^^^^^^^
+[00:59:42.017] Server  ERROR    ⨯ Error: Functions cannot be passed directly to Client Components unless you explicitly expose it by marking it with "use server". Or maybe you meant to call this function rather than return it.
+  {$$typeof: ..., render: function Settings}
+                          ^^^^^^^^^^^^^^^^^
+[00:59:42.275] Server  ERROR    ⨯ Error: Functions cannot be passed directly to Client Components unless you explicitly expose it by marking it with "use server". Or maybe you meant to call this function rather than return it.
+  {$$typeof: ..., render: function ChartPie}
+                          ^^^^^^^^^^^^^^^^^
+[00:59:42.547] Server  ERROR    ⨯ Error: Functions cannot be passed directly to Client Components unless you explicitly expose it by marking it with "use server". Or maybe you meant to call this function rather than return it.
+  {$$typeof: ..., render: function Database}
+                          ^^^^^^^^^^^^^^^^^
+[00:59:42.797] Server  ERROR    ⨯ Error: Functions cannot be passed directly to Client Components unless you explicitly expose it by marking it with "use server". Or maybe you meant to call this function rather than return it.
+  {$$typeof: ..., render: function Workflow}
+                          ^^^^^^^^^^^^^^^^^
+[00:59:43.054] Server  ERROR    ⨯ Error: Functions cannot be passed directly to Client Components unless you explicitly expose it by marking it with "use server". Or maybe you meant to call this function rather than return it.
+  {$$typeof: ..., render: function Brain}
+                          ^^^^^^^^^^^^^^
+[00:59:43.302] Server  ERROR    ⨯ Error: Functions cannot be passed directly to Client Components unless you explicitly expose it by marking it with "use server". Or maybe you meant to call this function rather than return it.
+  {$$typeof: ..., render: function Link}
+                          ^^^^^^^^^^^^^
+[00:59:43.526] Server  ERROR    ⨯ Error: Functions cannot be passed directly to Client Components unless you explicitly expose it by marking it with "use server". Or maybe you meant to call this function rather than return it.
+  {$$typeof: ..., render: function Rocket}
+                          ^^^^^^^^^^^^^^^
+[00:59:43.798] Server  ERROR    ⨯ Error: Functions cannot be passed directly to Client Components unless you explicitly expose it by marking it with "use server". Or maybe you meant to call this function rather than return it.
+  {$$typeof: ..., render: function TrendingUp}
+                          ^^^^^^^^^^^^^^^^^^^
+[00:59:44.029] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:59:44.029] Browser ERROR   uncaughtError: Error: Functions cannot be passed directly to Client Components unless you explicitly expose it by marking it with "use server". Or maybe you meant to call this function rather than return it.
+  {$$typeof: ..., render: function Users}
+                          ^^^^^^^^^^^^^^
+[01:03:04.316] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:06:12.807] Server  LOG      ✓ Compiled in 135ms
+[01:06:13.798] Browser ERROR   uncaughtError: ReferenceError: Settings is not defined
+[01:06:31.062] Server  ERROR    ⨯ ReferenceError: Settings is not defined
+[01:06:31.324] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:06:31.535] Browser ERROR   uncaughtError: ReferenceError: Settings is not defined
+[01:08:24.885] Server  LOG      ✓ Compiled in 156ms
+[01:08:25.802] Browser ERROR   ./components/CaseStudyLayout.js:104:9
+Ecmascript file had an error
+  102 |   }
+  103 |
+> 104 |   const getIcon = (iconKey, iconSet = iconMap) => {
+      |         ^^^^^^^
+  105 |     const IconComponent = iconSet[iconKey]
+  106 |     return IconComponent ? <IconComponent className="w-6 h-6" /> : null
+  107 |   }
+
+the name `getIcon` is defined multiple times
+
+Import trace:
+  Server Component:
+    ./components/CaseStudyLayout.js
+    ./app/case-studies/lambdatest/page.js
+[01:08:46.258] Server  LOG      ✓ Compiled in 62ms
+[01:08:46.798] Browser ERROR   ./components/CaseStudyLayout.js:72:16
+Parsing ecmascript source code failed
+  70 |   'trending-up': TrendingUp
+  71 | }
+> 72 |   'trending-up': TrendingUp
+     |                ^
+  73 | // removed duplicate getIcon to avoid redeclaration; single getIcon is defined above and used throughout
+  74 |   return IconComponent ? <IconComponent className="w-6 h-6" /> : null
+  75 | }
+
+Expected ';', '}' or <eof>
+
+Import trace:
+  Server Component:
+    ./components/CaseStudyLayout.js
+    ./app/case-studies/lambdatest/page.js
+[01:09:02.799] Browser ERROR   ./components/CaseStudyLayout.js:72:16
+Parsing ecmascript source code failed
+  70 |   'trending-up': TrendingUp
+  71 | }
+> 72 |   'trending-up': TrendingUp
+     |                ^
+  73 | // removed duplicate getIcon to avoid redeclaration; single getIcon is defined above and used throughout
+  74 |   return IconComponent ? <IconComponent className="w-6 h-6" /> : null
+  75 | }
+
+Expected ';', '}' or <eof>
+
+Import trace:
+  Server Component:
+    ./components/CaseStudyLayout.js
+    ./app/case-studies/lambdatest/page.js
+[01:10:04.978] Server  ERROR    ⨯ ReferenceError: problemIconMap is not defined
+[01:10:04.998] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:10:05.603] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:10:06.799] Browser ERROR   uncaughtError: ReferenceError: problemIconMap is not defined
+[01:10:15.037] Server  ERROR    ⨯ ReferenceError: problemIconMap is not defined
+[01:10:15.231] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:10:15.403] Browser ERROR   uncaughtError: ReferenceError: problemIconMap is not defined
+[01:12:16.443] Server  LOG      ✓ Compiled in 150ms
+[01:12:16.589] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:12:17.700] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:12:52.349] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:36:02.143] Server  LOG      ✓ Compiled in 84ms
+[01:36:15.651] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold

@@ -442,58 +442,37 @@ export default function CaseStudyLayout({ data }) {
 
       {/* Before & After Section */}
       {data.beforeAfter && (
-        <section className="py-15 bg-white">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6 }}
-              viewport={{ once: true }}
-              className="text-center mb-16"
-            >
-              <h2 className="text-3xl font-bold text-gray-900 mb-4">{data.beforeAfter.title}</h2>
-              <p className="text-2xl text-gray-600">{data.beforeAfter.subtitle}</p>
-            </motion.div>
+      <section className="py-15 bg-white">
+  <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+    <h2 className="text-3xl font-bold text-gray-900 text-center mb-8">
+      Before vs After: Measurable Impact
+    </h2>
 
-            <motion.div
-              variants={staggerChildren}
-              initial="initial"
-              whileInView="animate"
-              viewport={{ once: true }}
-              className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"
-            >
-              {data.beforeAfter.items.map((item, index) => (
-                <motion.div
-                  key={index}
-                  variants={fadeInUp}
-                  className="bg-white rounded-2xl p-6 shadow-sm border border-gray-100 text-center hover:shadow-md transition-all"
-                >
-                  <h3 className="text-lg font-semibold text-gray-900 mb-6">{item.title}</h3>
-                  
-                  <div className="flex items-center justify-between mb-4">
-                    <div className="text-center">
-                      <div className="text-lg text-gray-500 mb-1">Before</div>
-                      <div className="text-xl font-bold text-red-600">{item.before}</div>
-                    </div>
-                    
-                    <div className="text-indigo-600 mx-4">
-                      <FaArrowRight />
-                    </div>
-                    
-                    <div className="text-center">
-                      <div className="text-lg text-gray-500 mb-1">After</div>
-                      <div className="text-xl font-bold text-green-600">{item.after}</div>
-                    </div>
-                  </div>
-                  
-                  <div className="text-lg font-semibold text-indigo-600 rounded-full py-2 px-4">
-                    {item.improvement}
-                  </div>
-                </motion.div>
-              ))}
-            </motion.div>
-          </div>
-        </section>
+    <div className="bg-white rounded-2xl border border-gray-200 shadow-sm overflow-hidden">
+      <table className="w-full text-left">
+        <thead className="bg-gray-50 text-gray-600 text-lg">
+          <tr>
+            <th className="p-4 font-semibold">Metric</th>
+            <th className="p-4 font-semibold text-red-600">Before</th>
+            <th className="p-4 font-semibold text-green-600">After</th>
+            <th className="p-4 font-semibold text-indigo-600">Improvement</th>
+          </tr>
+        </thead>
+        <tbody className="text-lg text-gray-700">
+          {data.beforeAfter.items.map((item, i) => (
+            <tr key={i} className="border-t">
+              <td className="p-4 font-semibold">{item.title}</td>
+              <td className="p-4 text-red-600">{item.before}</td>
+              <td className="p-4 text-green-600">{item.after}</td>
+              <td className="p-4 text-indigo-600 font-semibold">{item.improvement}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
       )}
 
       {/* Results by Role Section */}
