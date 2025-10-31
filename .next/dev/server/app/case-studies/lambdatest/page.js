@@ -1,6 +1,6 @@
 var R=require("../../../chunks/ssr/[turbopack]_runtime.js")("server/app/case-studies/lambdatest/page.js")
 R.c("server/chunks/ssr/node_modules_next_dist_a44994de._.js")
-R.c("server/chunks/ssr/[root-of-the-server]__b17efef0._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__3080511f._.js")
 R.c("server/chunks/ssr/node_modules_next_dist_b704424f._.js")
 R.c("server/chunks/ssr/[root-of-the-server]__7f148858._.js")
 R.c("server/chunks/ssr/node_modules_next_dist_client_components_builtin_global-error_ece394eb.js")

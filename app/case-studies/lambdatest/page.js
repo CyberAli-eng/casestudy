@@ -1,5 +1,5 @@
 // app/case-studies/lambdatest/page.js
-import CaseStudyLayout from '../../../components/CaseStudyLayout'
+import CaseStudyLayout from '../../../components/case-study/CaseStudyLayout'
 
 const lambdatestData = {
   slug: 'lambdatest',
@@ -37,13 +37,13 @@ const lambdatestData = {
       { 
         icon: 'time', 
         value: '4+ Hours', 
-        label: 'Daily per sales rep',
+        label: 'Daily Sales per Representative',
         description: 'Time Saved'
       },
       { 
         icon: 'accuracy', 
         value: '90%+', 
-        label: 'Up from <70%',
+        label: 'Up from <70% of previous data accuracy',
         description: 'Data Accuracy'
       }
     ]
@@ -260,7 +260,7 @@ const lambdatestData = {
       },
       {
         role: 'Account Managers',
-        icon: 'trending-up',
+        icon: 'trending_up',
         description: 'Proactive account management and expansion',
         benefitsTitle: 'Key Benefits:',
         benefits: [
