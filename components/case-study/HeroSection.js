@@ -39,7 +39,7 @@ export default function HeroSection({ data }) {
                 </div>
                 <div className="text-2xl">+</div>
                 <div className="bg-white rounded-2xl p-4 sm:p-6 shadow-lg border border-gray-100">
-  <img src="/logos/primerole.svg" alt="PrimeRole Logo" className="w-28 h-auto" />
+  <img src={`${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/logos/primerole.svg`} alt="PrimeRole Logo" className="w-28 h-auto" />
                 </div>
               </div>
             </div>
